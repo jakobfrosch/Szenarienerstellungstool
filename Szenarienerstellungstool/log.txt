@@ -1,0 +1,7 @@
+OpenScenario Pfad: C:\Users\stefan\Documents\PedestrianCrossingFront.xosc
+Dokumentations Pfad: C:\Users\stefan\Documents\OpenSCENARIO.xml
+Zielordner: C:\Users\stefan\Documents\OpenSCENARIO_output
+Feature Variationen:
+Wetter: true
+Ausgangsposition: true
+Speed: true
