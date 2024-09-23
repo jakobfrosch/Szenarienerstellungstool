@@ -1,4 +1,4 @@
-package szenarienerstellungstool;
+package at.jku.win.masterarbeit.util;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,8 +8,6 @@ import de.ovgu.featureide.fm.core.base.IFeatureModelStructure;
 import de.ovgu.featureide.fm.core.base.IFeatureStructure;
 import de.ovgu.featureide.fm.core.base.impl.DefaultFeatureModelFactory;
 import de.ovgu.featureide.fm.core.base.impl.Feature;
-import de.ovgu.featureide.fm.core.base.impl.FeatureModel;
-
 
 public class FeatureTreeNode<T> {
 	final IFeatureModel fm;
@@ -65,7 +63,7 @@ public class FeatureTreeNode<T> {
 		this.fs = fs;
 	}
 	public void fmToString() {
-		System.out.println("FM: ");
+		//System.out.println("FM: ");
 		System.out.println(fm.toString());
 	}
 

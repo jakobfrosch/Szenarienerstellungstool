@@ -1,14 +1,14 @@
-package szenarienerstellungstool;
+package at.jku.win.masterarbeit.util;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TwoStrings {
+public class MotherfeatureFeatureLevelMand {
     private String feature;
     private String motherfeature;
     private int level;
     private boolean mandatory;
-    public TwoStrings(String motherfeature,String feature,int level,boolean mandatory) {
+    public MotherfeatureFeatureLevelMand(String motherfeature,String feature,int level,boolean mandatory) {
         this.setFeature(feature);
         this.setMotherfeature(motherfeature);
         this.setLevel(level);

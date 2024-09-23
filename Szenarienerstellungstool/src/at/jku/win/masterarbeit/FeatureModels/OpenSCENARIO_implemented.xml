@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and mandatory="true" name="OpenSCENARIO">
+			<and name="Actions">
+				<graphics key="collapsed" value="true"/>
+				<and name="GlobalAction">
+					<feature name="EnvironmentAction"/>
+					<feature mandatory="true" name="EntityAction"/>
+					<feature name="ParameterAction"/>
+					<feature name="InfrastructureAction"/>
+					<feature name="TrafficAction"/>
+					<feature name="VariableAction"/>
+				</and>
+				<and name="PrivateAction">
+					<feature mandatory="true" name="LongitudinalAction"/>
+					<feature name="LateralAction"/>
+					<feature name="VisibilityAction"/>
+					<feature name="SynchronizeAction"/>
+					<feature name="ActivateControllerAction"/>
+					<feature mandatory="true" name="TeleportAction"/>
+				</and>
+				<feature name="UserDefinedAction"/>
+				<feature name="CustomCommandAction"/>
+			</and>
+			<and name="Events">
+				<graphics key="collapsed" value="true"/>
+				<feature mandatory="true" name="SpeedAction"/>
+				<feature mandatory="true" name="RoutingAction"/>
+				<feature mandatory="true" name="CollisionEvent"/>
+				<feature name="ManeuverEvent"/>
+				<feature name="TimeOfDayEvent"/>
+				<feature name="StandstillEvent"/>
+				<feature name="TrafficSignalEvent"/>
+				<feature name="TrafficSignalControllerEvent"/>
+				<feature name="VehicleEvent"/>
+				<feature name="PedestrianEvent"/>
+				<feature name="MiscObjectEvent"/>
+			</and>
+			<and name="Conditions">
+				<graphics key="collapsed" value="false"/>
+				<and name="ByEntityCondition">
+					<graphics key="collapsed" value="false"/>
+					<feature mandatory="true" name="CollisionCondition"/>
+					<feature mandatory="true" name="OffroadCondition"/>
+					<feature mandatory="true" name="TraveledDistanceCondition"/>
+					<feature mandatory="true" name="SpeedCondition"/>
+					<feature name="TimeHeadwayCondition"/>
+					<feature name="TimeToCollisionCondition"/>
+					<feature name="AccelerationCondition"/>
+					<feature name="StandStillCondition"/>
+					<feature mandatory="true" name="ReachPositionCondition"/>
+					<feature name="DistanceCondition"/>
+					<feature mandatory="true" name="RelativeDistanceCondition"/>
+					<feature name="RelativeClearanceCondition"/>
+				</and>
+				<and name="ByValueCondition">
+					<graphics key="collapsed" value="true"/>
+					<feature name="ParameterCondition"/>
+					<feature name="TimeOfDayCondition"/>
+					<feature name="SimulationTimeCondition"/>
+					<feature mandatory="true" name="StoryboardElementStateCondition"/>
+					<feature name="VariableCondition"/>
+				</and>
+				<feature name="ByStateCondition"/>
+			</and>
+		</and>
+	</struct>
+	<constraints>
+		<rule>
+			<imp>
+				<var>SpeedCondition</var>
+				<var>StandStillCondition</var>
+			</imp>
+		</rule>
+	</constraints>
+</featureModel>

@@ -1,9 +1,8 @@
-package szenarienerstellungstool;
+package at.jku.win.masterarbeit.szenarienerstellungstool;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -12,9 +11,7 @@ import de.ovgu.featureide.fm.core.base.IFeatureModelStructure;
 import de.ovgu.featureide.fm.core.base.IFeatureStructure;
 import de.ovgu.featureide.fm.core.base.impl.ConfigFormatManager;
 import de.ovgu.featureide.fm.core.base.impl.DefaultFeatureModelFactory;
-import de.ovgu.featureide.fm.core.base.impl.Feature;
 import de.ovgu.featureide.fm.core.base.impl.FeatureModel;
-import de.ovgu.featureide.fm.core.base.impl.FeatureStructure;
 import de.ovgu.featureide.fm.core.io.xml.XmlFeatureModelFormat;
 
 import java.io.File;
@@ -22,9 +19,12 @@ import java.io.IOException;
 
 
 import org.w3c.dom.*;
+
+import at.jku.win.masterarbeit.util.MotherfeatureFeature;
+
 import javax.xml.parsers.*;
 import java.io.*;
-public class FeatureModelCreation {
+public class FeatureModelAdaptions {
 	
 	public static void main(String[] args) {
         Element rootElement=null;
@@ -41,9 +41,9 @@ public class FeatureModelCreation {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        List<ElementsAndOneChildren> openScenario_required =fillOpenScenario_required("C:\\Users\\stefan\\Documents\\OpenSCENARIO.xml");
+        List<MotherfeatureFeature> openScenario_required =fillOpenScenario_required("C:\\Users\\stefan\\Documents\\OpenSCENARIO.xml");
         //System.out.print(openScenario_required.toString());
-		FeatureModel fm=XMLParser.fillCreateFeatureModel(rootElement, "?xml version=\"1.0\"?",openScenario_required);
+		FeatureModel fm=FeatureModelCreation.fillCreateFeatureModel(rootElement, "?xml version=\"1.0\"?",openScenario_required);
 		saveXMLFeatureModel("C:\\Users\\stefan\\Documents\\OpenSCENARIO_output\\PedestrianCrossingFront_FM.xml",fm);
 		saveXMLScenario("C:\\Users\\stefan\\Documents\\OpenSCENARIO_output\\PedestrianCrossingFront_unchanged.xml",fm);
 		  
@@ -52,7 +52,7 @@ public class FeatureModelCreation {
 		StringBuilder xmlBuilder = new StringBuilder();
 		
 		xmlBuilder.append("<?xml version=\"1.0\"?>\n");
-		xmlBuilder = XMLGenerator.generateXMLRecursively(fm, list, xmlBuilder, 0);
+		xmlBuilder = OpenScenarioGenerator.generateOpenScenarioFromFmRecursively(fm, list, xmlBuilder, 0);
 		FeatureModel fmAdapted=adaptFeatureModelWeather_add(fm);
 		fmAdapted=adaptFeatureModelAcceleration(fmAdapted);
 		fmAdapted=adaptFeatureModelSwitchTrueFalse(fmAdapted);
@@ -61,8 +61,8 @@ public class FeatureModelCreation {
 		saveXMLScenario("C:\\Users\\stefan\\Documents\\OpenSCENARIO_output\\PedestrianCrossingFront_weather_Adapted.xml",fmAdapted);
 		
 	}
-	public static List<ElementsAndOneChildren> fillOpenScenario_required(String source) {
-		List<ElementsAndOneChildren> openScenario_required = new ArrayList();
+	public static List<MotherfeatureFeature> fillOpenScenario_required(String source) {
+		List<MotherfeatureFeature> openScenario_required = new ArrayList();
 		try {
 		      File fXmlFile = new File(source);
 		      DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
@@ -77,7 +77,7 @@ public class FeatureModelCreation {
 		        if (element.hasAttribute("use") && element.getAttribute("use").equals("required")) {
 		        	//System.out.println(element.getAttribute("name") + " true");
 		        	try {
-		        		openScenario_required.add(new ElementsAndOneChildren(element.getParentNode().getAttributes().getNamedItem("name").getNodeValue(),element.getAttribute("name")));
+		        		openScenario_required.add(new MotherfeatureFeature(element.getParentNode().getAttributes().getNamedItem("name").getNodeValue(),element.getAttribute("name")));
 		        		//System.out.println(element.getParentNode().getAttributes().getNamedItem("name").getNodeValue() + " " + element.getAttribute("name") + " " + true+ temp+" "+ counter);
 		        	}
 		        	catch (NullPointerException e) {
@@ -92,55 +92,6 @@ public class FeatureModelCreation {
 		return openScenario_required;
 	}
 	
-	public static FeatureModel adaptFeatureModelWeather(FeatureModel fm) {
-		IFeatureModelStructure fms=fm.getStructure();
-		Collection<IFeature> features = fm.getFeatures();
-		Collection<IFeature> featurepreorder = fms.getFeaturesPreorder();
-		List<IFeatureStructure> weatherfs;
-		List<IFeatureStructure> precipitationfs;
-		ConfigFormatManager cfm;
-		
-		IFeature f;
-		IFeatureStructure fs;
-		Object[] test=features.toArray();
-		for (int i=0; i<fm.getFeatures().size()-1; i++) {
-			if (test[i]!=null &&test[i].toString().contains("Weather")) {
-				f=fm.getFeature(test[i].toString());
-				fs=f.getStructure();
-				weatherfs=fs.getChildren();
-				for(IFeatureStructure j:weatherfs) {
-					if (j.getFeature().getName().contains("Precipitation")) {
-						
-						for(IFeatureStructure k:j.getChildren()) {
-							String[] parts = k.getFeature().getName().split("\\|");
-							
-                            String attributeName = parts[0];
-                            
-                            String attributeValue = parts.length > 1 ? parts[1] : "";
-                            //System.out.println("111111111111111|"+attributeValue);
-                            //System.out.println("222222222222222|"+attributeName);
-							if (k.getFeature().getName().contains("precipitationType")) {
-								if (attributeValue.equals("rain")) {
-									attributeValue="snow";
-								}
-								else {
-									attributeValue="rain";
-								}
-							}
-							if (k.getFeature().getName().contains("intensity")) {
-								attributeValue="0.5";
-								
-							}
-							k.getFeature().setName(attributeName+"|"+attributeValue);
-						}
-						
-					}
-				}
-			}
-		}
-		
-		return fm;
-	}
 	public static FeatureModel addFeature(FeatureModel fm, IFeatureStructure motherStructure, String name) {
 		final DefaultFeatureModelFactory factory = DefaultFeatureModelFactory.getInstance();
 		IFeature f=factory.createFeature(fm, name);
@@ -218,11 +169,11 @@ public class FeatureModelCreation {
 				fs=f.getStructure();
 				positionfs=fs.getChildren();
 				String fullName;
-				System.out.println("positionfs: "+positionfs.toString());
+				//System.out.println("positionfs: "+positionfs.toString());
 				for(IFeatureStructure j:positionfs) {
 					
-					System.out.println("j.getFeature().getName() "+j.getFeature().getName());
-					System.out.println("j.getFeature().getName()2 "+j.getChildren().get(0).getFeature().getName());
+					//System.out.println("j.getFeature().getName() "+j.getFeature().getName());
+					//System.out.println("j.getFeature().getName()2 "+j.getChildren().get(0).getFeature().getName());
 					String[] parts = j.getChildren().get(0).getFeature().getName().split(" ");
                     String attributeName = parts[1];
                     String attributeValue = parts[0];
@@ -302,14 +253,14 @@ public class FeatureModelCreation {
 		for (int i=0; i<fm.getFeatures().size(); i++) {
 			if (test[i]!=null && test[i].toString().contains("Waypoint")) {
 				f=fm.getFeature(test[i].toString());
-				System.out.println("f: "+f.getName());
+				//System.out.println("f: "+f.getName());
 				fs=f.getStructure();
 				positionfs=fs.getChildren();
 				String fullName;
-				System.out.println("positionfs: "+positionfs.toString());
+				//System.out.println("positionfs: "+positionfs.toString());
 				String[] parts = null;
 				for(IFeatureStructure j:positionfs) {
-					System.out.println("j.getFeature().getName()1 "+j.getFeature().getName());
+					//System.out.println("j.getFeature().getName()1 "+j.getFeature().getName());
 				}
 				for(IFeatureStructure j:positionfs) {
 					if (j.getFeature().getName().contains("Position")) {
@@ -393,14 +344,14 @@ public class FeatureModelCreation {
 		for (int i=0; i<fm.getFeatures().size(); i++) {
 			if (test[i]!=null && test[i].toString().contains("Vehicle")) {
 				f=fm.getFeature(test[i].toString());
-				System.out.println("f: "+f.getName());
+				//System.out.println("f: "+f.getName());
 				fs=f.getStructure();
 				positionfs=fs.getChildren();
 				String fullName;
-				System.out.println("positionfs: "+positionfs.toString());
+				//System.out.println("positionfs: "+positionfs.toString());
 				String[] parts = null;
 				for(IFeatureStructure j:positionfs) {
-					System.out.println("j.getFeature().getName()1 "+j.getFeature().getName());
+					//System.out.println("j.getFeature().getName()1 "+j.getFeature().getName());
 				}
 				for(IFeatureStructure j:positionfs) {
 					if (j.getFeature().getName().contains("Performance")) {
@@ -483,7 +434,7 @@ public class FeatureModelCreation {
 		for (int i=0; i<fm.getFeatures().size(); i++) {
 			if (test[i]!=null && test[i].toString().contains(" Vehicle")) {
 				f=fm.getFeature(test[i].toString());
-				System.out.println("f: "+f.getName());
+				//System.out.println("f: "+f.getName());
 				fs=f.getStructure();
 				fs_clone=fs.clone(f);
 				fs_clone.setParent(fs.getParent());
@@ -501,7 +452,7 @@ public class FeatureModelCreation {
         IFeature f;
         IFeatureStructure fs;
         Object[] test = features.toArray();
-        System.out.println("vehicleCounter: "+vehicleCounter(fm));
+        //System.out.println("vehicleCounter: "+vehicleCounter(fm));
         for (int i = 0; i < fm.getFeatures().size(); i++) {
             if (test[i] != null && test[i].toString().contains(" Entities")) {
                 f = fm.getFeature(test[i].toString());
@@ -530,7 +481,7 @@ public class FeatureModelCreation {
                 fs.setAlternative();
             }
         }
-        System.out.println("vehicleCounter2: "+vehicleCounter(fm));
+        //System.out.println("vehicleCounter2: "+vehicleCounter(fm));
 
         return fm;
     }
@@ -615,9 +566,9 @@ public class FeatureModelCreation {
 								//System.out.println(counter);
 								counter++;
 								String[] parts = k.getFeature().getName().split("\\|");
-								System.out.println(k.getFeature().getName());
+								//System.out.println(k.getFeature().getName());
 	                            String attributeName = parts[0];
-	                            System.out.println("p1: "+parts[1]);
+	                            //System.out.println("p1: "+parts[1]);
 	                            
 	                            String attributeValue = parts.length > 1 ? parts[1] : "";
 	                           
@@ -768,14 +719,14 @@ public class FeatureModelCreation {
 	static FeatureModel removeFeature (FeatureModel fm, IFeatureStructure fs, IFeatureStructure motherFs) {
 		FeatureModel fmtemp=fm;
 		//System.out.println("FM: "+fm);
-		System.out.println("Name: "+fs.getFeature().getName());
+		//System.out.println("Name: "+fs.getFeature().getName());
 		Collection<IFeature> test = fmtemp.getStructure().getFeaturesPreorder();
 		for (IFeature tes:test) {
 			if (tes.getName().equals(fs.getFeature().getName())) {
 				IFeatureStructure fs2=tes.getStructure();
 				IFeatureStructure motherFs2 = fs2.getParent();
 				motherFs2.removeChild(fs2);
-				System.out.println("remmo: "+fs2.getFeature().getName());
+				//System.out.println("remmo: "+fs2.getFeature().getName());
 			}
 		}
 		return fmtemp;
@@ -804,7 +755,7 @@ public class FeatureModelCreation {
 				featuresArayList2=featuresArayList.get(i).getStructure().getChildren();
 				for (int a=0; a<featuresArayList2.size();a++) {
 					fsList.add(featuresArayList2.get(a));
-					System.out.println("jj_jj: "+featuresArayList2.get(a));
+					//System.out.println("jj_jj: "+featuresArayList2.get(a));
 					//if (!featuresArayList2.get(a).getFeature().toString().contains("_add ")) {
 						stringList.add(featuresArayList2.get(a).getFeature().toString());
 					//}
@@ -844,25 +795,25 @@ public class FeatureModelCreation {
 			//System.out.println("combination: "+combination);
 			for (int j=0; j<combination.size(); j++) {
 				for (int i=0; i<featuresArayList.size(); i++) {
-					System.out.println("1: "+featuresArayList.get(i).getName().substring(0, featuresArayList.get(i).getName().indexOf(' ')));
-					System.out.println(combination.get(j));
-					System.out.println("2: "+combination.get(j).substring(0, combination.get(j).indexOf('_')));
+					//System.out.println("1: "+featuresArayList.get(i).getName().substring(0, featuresArayList.get(i).getName().indexOf(' ')));
+					//System.out.println(combination.get(j));
+					//System.out.println("2: "+combination.get(j).substring(0, combination.get(j).indexOf('_')));
 					String comboPart = combination.get(j).contains("_") ? 
 						    combination.get(j).substring(0, combination.get(j).indexOf('_')) : 
 						    combination.get(j);
 					
 					if (featuresArayList.get(i).getName().substring(0, featuresArayList.get(i).getName().indexOf(' ')).contains(combination.get(j).substring(0, combination.get(j).indexOf('_')))) {
 						fmtemp=fm.clone();
-						System.out.println("fmtemp=fm.clone();");
+						//System.out.println("fmtemp=fm.clone();");
 						for (IFeatureStructure delf : fsList) {
-							System.out.println("delf");
-							System.out.println(delf.getFeature().getName()+" comb: "+ combination.get(j)+" delfFeature"+delf.getFeature().getName());
+							//System.out.println("delf");
+							//System.out.println(delf.getFeature().getName()+" comb: "+ combination.get(j)+" delfFeature"+delf.getFeature().getName());
 							if (!delf.getFeature().getName().contains("|")&&combination.get(j).equals(delf.getFeature().getName())) {
-								System.out.println("combi: "+combination.get(j)+" zu "+delf.getFeature().getName());
+								//System.out.println("combi: "+combination.get(j)+" zu "+delf.getFeature().getName());
 								for (IFeatureStructure delf2 : fsList) {
 									if (!combination.get(j).equals(delf2.getFeature().getName())&&combination.get(j).replaceFirst("_\\d+", "").equals(delf2.getFeature().getName().replaceFirst("_\\d+", ""))){
 										deleteFeatureStructureList.add(delf2);
-										System.out.println("todelete: "+delf2.getFeature().getName());
+										//System.out.println("todelete: "+delf2.getFeature().getName());
 									}
 									else if (combination.get(j).equals(delf2.getFeature().getName())) {
 										String featureChildString = "";
@@ -883,7 +834,7 @@ public class FeatureModelCreation {
 							}
 							
 							else if (delf.getFeature().getName().contains("|")&&combination.get(j).equals(delf.getFeature().getName())) {
-								System.out.println("combi2: "+combination.get(j)+" zu "+delf.getFeature().getName());
+								//System.out.println("combi2: "+combination.get(j)+" zu "+delf.getFeature().getName());
 								for (IFeatureStructure delf2 : fsList) {
 									if (combination.get(j).equals(delf2.getFeature().getName())){
 										delf2.getParent().getFeature().setName(delf2.getFeature().getName());
@@ -905,10 +856,10 @@ public class FeatureModelCreation {
 							//deleteFeatureStructureList.add(delFSMother);
 						}
 						if((j+1)%combination.size() == 0) {
-							System.out.println("remove: ");
+							//System.out.println("remove: ");
 							for(IFeatureStructure deleteFeatureStructure:deleteFeatureStructureList) {
 								//System.out.println(deleteFeatureStructure.getFeature().getName());
-								System.out.println("removed: "+deleteFeatureStructure.getFeature().getName()+" Mother: "+deleteFeatureStructure.getParent().getFeature().getName());
+								//System.out.println("removed: "+deleteFeatureStructure.getFeature().getName()+" Mother: "+deleteFeatureStructure.getParent().getFeature().getName());
 								fmtemp=removeFeature(fmtemp, deleteFeatureStructure, deleteFeatureStructure.getParent());
 							}
 							deleteFeatureStructureList=new ArrayList<IFeatureStructure>();
@@ -917,11 +868,11 @@ public class FeatureModelCreation {
 							for (String comb:combination) {
 								combinat=combinat+comb;
 							}
-							System.out.println("test: "+file+counter+combination.get(j).split(" ")[1]);
+							//System.out.println("test: "+file+counter+combination.get(j).split(" ")[1]);
 							//System.out.println(temp.split(" ")[1].replace("|", "_")+"_Adapted.xosc");
 							saveXMLScenario(file+"_"+counter+"_Adapted.xosc",fmtemp);
 							counter++;
-							System.out.println("Counter: "+counter);
+							//System.out.println("Counter: "+counter);
 						}
 						temp=combination.get(j).replaceFirst("_\\d+", "");
 					}
@@ -929,7 +880,7 @@ public class FeatureModelCreation {
 			}
 		}
 		for (String cl:changesList) {
-			System.out.println(cl);
+			//System.out.println(cl);
 		}
 		return featureList;
 	}
@@ -959,57 +910,12 @@ public class FeatureModelCreation {
         HashSet<String> set = new HashSet<>(stringList2);
         return new ArrayList<>(set);
     }
-	public static ArrayList<FeatureModel> adaptFeatureModelCreateList2(FeatureModel fm) {
-		ArrayList<FeatureModel> featureList = new ArrayList<FeatureModel>();
-		Collection<IFeature> features = fm.getFeatures();
-		List<IFeatureStructure> weatherfs;
-		IFeature f;
-		IFeatureStructure fs;
-		Object[] test=features.toArray();
-		for (int i=0; i<fm.getFeatures().size()-1; i++) {
-			if (test[i]!=null &&test[i].toString().contains("|")) {
-				f=fm.getFeature(test[i].toString());
-				fs=f.getStructure();
-				weatherfs=fs.getChildren();
-				for(IFeatureStructure j:weatherfs) {
-					if (j.isAlternative()) {
-						
-						for(IFeatureStructure k:j.getChildren()) {
-							String[] parts = k.getFeature().getName().split("\\|");
-                            String attributeName = parts[0];
-                            
-                            String attributeValue = parts.length > 1 ? parts[1] : "";
-							if (k.getFeature().getName().contains("precipitationType")) {
-								if (attributeValue.equals("rain")) {
-									attributeValue="snow";
-								}
-								else {
-									attributeValue="rain";
-								}
-							}
-							if (k.getFeature().getName().contains("intensity")) {
-								attributeValue="0.5";
-								
-							}
-							k.getFeature().setName(attributeName+"|"+attributeValue);
-						}
-						
-					}
-				}
-			}
-		}
-		
-		return featureList;
-	}
-	
-	
-	
 	public static void saveXMLScenarios(String filePath, FeatureModel fm) {
 		StringBuilder xmlBuilder = new StringBuilder();
 		List<IFeatureStructure> list=new ArrayList();
         list.add(fm.getStructure().getRoot());
 		xmlBuilder.append("<?xml version=\"1.0\"?>\n");
-		xmlBuilder = XMLGenerator.generateXMLRecursively(fm, list, xmlBuilder, 0);
+		xmlBuilder = OpenScenarioGenerator.generateOpenScenarioFromFmRecursively(fm, list, xmlBuilder, 0);
 		String xmlString=xmlBuilder.toString();
 		
 		try {
@@ -1028,7 +934,7 @@ public class FeatureModelCreation {
 		//for (int i = 0; i<fm.getFeatureOrderList().size(); i++) {
 			//System.out.println("fm.getFeatureOrderList().get(i): "+fm.getFeatureOrderList().get(i));
 		//}
-		xmlBuilder = XMLGenerator.generateXMLRecursively(fm, list, xmlBuilder, 0);
+		xmlBuilder = OpenScenarioGenerator.generateOpenScenarioFromFmRecursively(fm, list, xmlBuilder, 0);
 		String xmlString=xmlBuilder.toString();
 		//System.out.println("fullXML: "+xmlString);
 		try {
@@ -1050,8 +956,4 @@ public class FeatureModelCreation {
             e.printStackTrace();
         }
 	}
-
-	
-	
-
 }

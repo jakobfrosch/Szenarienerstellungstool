@@ -1,4 +1,4 @@
-package szenarienerstellungstool;
+package at.jku.win.masterarbeit.szenarienerstellungstool;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.table.DefaultTableModel;
@@ -8,6 +8,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import at.jku.win.masterarbeit.util.MotherfeatureFeature;
 import de.ovgu.featureide.fm.core.base.IFeatureStructure;
 import de.ovgu.featureide.fm.core.base.impl.FeatureModel;
 
@@ -172,42 +173,38 @@ public class Choose_Variations extends JFrame {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        List<ElementsAndOneChildren> openScenario_required =FeatureModelCreation.fillOpenScenario_required(documentationPath);
-        //System.out.print(openScenario_required.toString());
-		FeatureModel fm=XMLParser.fillCreateFeatureModel(rootElement, "?xml version=\"1.0\"?",openScenario_required);
-		//Test8.saveXMLFeatureModel(outputFolderPath+"/"+extractFileName(openScenarioPath)+"_FM.xml",fm);
-		//Test8.saveXMLScenario(outputFolderPath+"/"+extractFileName(openScenarioPath)+"_unchanged.xml",fm);
-		
+        List<MotherfeatureFeature> openScenario_required =FeatureModelAdaptions.fillOpenScenario_required(documentationPath);
+		FeatureModel fm=FeatureModelCreation.fillCreateFeatureModel(rootElement, "?xml version=\"1.0\"?",openScenario_required);
 		List<IFeatureStructure> list=new ArrayList<IFeatureStructure>();
         list.add(fm.getStructure().getRoot());
 		StringBuilder xmlBuilder = new StringBuilder();
 		
 		xmlBuilder.append("<?xml version=\"1.0\"?>\n");
-		xmlBuilder = XMLGenerator.generateXMLRecursively(fm, list, xmlBuilder, 0);
+		xmlBuilder = OpenScenarioGenerator.generateOpenScenarioFromFmRecursively(fm, list, xmlBuilder, 0);
 		
 		if (varyWeather) {
-			fm=FeatureModelCreation.adaptFeatureModelWeather_add(fm);
+			fm=FeatureModelAdaptions.adaptFeatureModelWeather_add(fm);
 		}
 		if (varySpeed) {
-			fm=FeatureModelCreation.adaptFeatureModelAcceleration_add(fm);
+			fm=FeatureModelAdaptions.adaptFeatureModelAcceleration_add(fm);
 		}
 		if (switchTrueFalse) {
-			fm=FeatureModelCreation.adaptFeatureModelSwitchTrueFalse(fm);
+			fm=FeatureModelAdaptions.adaptFeatureModelSwitchTrueFalse(fm);
 		}
 		if (varyStartPosition) {
-			fm=FeatureModelCreation.adaptFeatureModelPosition_add(fm);
+			fm=FeatureModelAdaptions.adaptFeatureModelPosition_add(fm);
 		}
 		if (varyWaypoints) {
-			fm=FeatureModelCreation.adaptFeatureModelWaypoints_add(fm);
+			fm=FeatureModelAdaptions.adaptFeatureModelWaypoints_add(fm);
 		}
 		if (varyVehicles) {
-			fm=FeatureModelCreation.adaptFeatureModelVehicles_add(fm);
+			fm=FeatureModelAdaptions.adaptFeatureModelVehicles_add(fm);
 		}
 		if (varyAgression) {
-			fm=FeatureModelCreation.adaptFeatureModelAgression_add(fm);
+			fm=FeatureModelAdaptions.adaptFeatureModelAgression_add(fm);
 		}
-		FeatureModelCreation.saveXMLFeatureModel(outputFolderPath+"/"+extractFileName(openScenarioPath)+"_Adapted_FM.xml",fm);
-		ArrayList<FeatureModel> featureModelList = FeatureModelCreation.adaptFeatureModelCreateList(fm, outputFolderPath+"/Adapted/"+extractFileName(openScenarioPath));
+		FeatureModelAdaptions.saveXMLFeatureModel(outputFolderPath+"/"+extractFileName(openScenarioPath)+"_Adapted_FM.xml",fm);
+		ArrayList<FeatureModel> featureModelList = FeatureModelAdaptions.adaptFeatureModelCreateList(fm, outputFolderPath+"/Adapted/"+extractFileName(openScenarioPath));
 		
 		
 		
@@ -288,23 +285,6 @@ public class Choose_Variations extends JFrame {
     }
 
     public static void main(String[] args) {
-    	//try {
-            // Datei für das Log erstellen
-            //File logFile = new File("log.txt");
-            //FileWriter writer = new FileWriter(logFile);
-
-            // Umleitung der Standardausgabe (System.out) zum Schreiben in die Datei
-            //PrintStream printStream = new PrintStream(new FileOutputStream(logFile));
-            //System.setOut(printStream);
-
-            // Datei schließen
-            //writer.close();
-
-            // Öffnen des Logfiles am Ende des Programms
-            //openLogFile(logFile);
-        //} catch (IOException e) {
-           // e.printStackTrace();
-        //}
         SwingUtilities.invokeLater(() -> new Choose_Variations());
     }
     public static void openLogFile(File logFile) {

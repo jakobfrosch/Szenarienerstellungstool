@@ -1,10 +1,10 @@
-package szenarienerstellungstool;
+package at.jku.win.masterarbeit.util;
 
 
-public class ElementsAndOneChildren {
+public class MotherfeatureFeature {
     private String motherfeature;
     private String feature;
-    public ElementsAndOneChildren(String motherfeature,String feature) {
+    public MotherfeatureFeature(String motherfeature,String feature) {
         this.setFeature(feature);
         this.setMotherfeature(motherfeature);
     }
