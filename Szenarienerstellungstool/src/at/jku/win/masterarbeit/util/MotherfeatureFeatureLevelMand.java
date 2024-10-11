@@ -1,8 +1,5 @@
 package at.jku.win.masterarbeit.util;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class MotherfeatureFeatureLevelMand {
     private String feature;
     private String motherfeature;

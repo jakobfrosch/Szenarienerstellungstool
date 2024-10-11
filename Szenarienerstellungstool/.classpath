@@ -1,10 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="C:/Program Files/Java/jre-1.8"/>
 	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/jdom2-2.0.5.jar/jdom2-2.0.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/de.ovgu.featureide.lib.fm.attributes-v3.10.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/de.ovgu.featureide.lib.fm-v3.10.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/de.ovgu.featureide.lib.fm-v3.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/de.ovgu.featureide.lib.fm.attributes-v3.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/org.sat4j.core_2.3.5.v201308161310.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/FeatJAR-main/FeatJAR-main/gradle-plugins/build/libs/gradle-plugins.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/uvl-parser.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/splar.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/org.sat4j.pb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/org.sat4j.core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/commons-math-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/antlr-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stefan/Downloads/SPLCAT.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

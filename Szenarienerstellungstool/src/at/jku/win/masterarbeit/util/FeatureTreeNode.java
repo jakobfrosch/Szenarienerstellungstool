@@ -16,7 +16,6 @@ public class FeatureTreeNode<T> {
     private Feature f;
     private IFeatureStructure fs;
     private List<FeatureTreeNode<T>> children;
-    private String addit="";
     private int level;
 
     public FeatureTreeNode(IFeatureModel fm,DefaultFeatureModelFactory factory,String feature,String addit) {
@@ -63,7 +62,6 @@ public class FeatureTreeNode<T> {
 		this.fs = fs;
 	}
 	public void fmToString() {
-		//System.out.println("FM: ");
 		System.out.println(fm.toString());
 	}
 

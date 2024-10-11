@@ -8,10 +8,12 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import de.ovgu.featureide.fm.core.ExtensionManager.NoSuchExtensionException;
 import at.jku.win.masterarbeit.util.MotherfeatureFeature;
 import de.ovgu.featureide.fm.core.base.IFeatureStructure;
 import de.ovgu.featureide.fm.core.base.impl.FeatureModel;
-
+import de.ovgu.featureide.fm.core.init.FMCoreLibrary;
+import de.ovgu.featureide.fm.core.init.LibraryManager;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -21,11 +23,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
-import java.io.*;
-import java.util.Scanner;
 public class Choose_Variations extends JFrame {
-
+	private static final long serialVersionUID = 1L;
 	private JTextField inputOpenScenarioField;
     private JTextField inputDocumentationField;
     private JTextField outputFolderField;
@@ -36,18 +35,23 @@ public class Choose_Variations extends JFrame {
     private JCheckBox agressionCheckbox;
     private JCheckBox speedCheckbox;
     private JCheckBox switchTrueFalseCheckbox;
+    private JTextField maxFeatureModelsField;
+    private JCheckBox twiseConfigCheckbox;
+    private JCheckBox useRandomConfigCheckbox;
+    private JTextField tWiseTextField;
+	public final static int PARAM_NONE = 0x00;
+	public final static int PARAM_IGNOREABSTRACT = 0x02;
+	public final static int PARAM_PROPAGATE = 0x04;
+	public final static int PARAM_LAZY = 0x08;
 
     public Choose_Variations() {
         super("OpenScenario Feature Variation");
-
         try {
             UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         setLayout(new BorderLayout());
-
         JPanel fileSelectionPanel = createFileSelectionPanel();
         add(fileSelectionPanel, BorderLayout.NORTH);
 
@@ -56,62 +60,71 @@ public class Choose_Variations extends JFrame {
 
         JPanel outputFolderPanel = createOutputFolderPanel();
         add(outputFolderPanel, BorderLayout.SOUTH);
-
         JButton startButton = new JButton("Start Variationen");
         startButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                startVariations();
+                try {
+					try {
+						startVariations();
+					} catch (IOException e1) {
+						e1.printStackTrace();
+					}
+				} catch (NoSuchExtensionException e1) {
+					System.out.println("exception");
+				}
             }
         });
         add(startButton, BorderLayout.SOUTH);
-
-        // JFrame-Einstellungen
-        setSize(600, 400);
+        setSize(600, 470);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setVisible(true);
     }
 
     private JPanel createFileSelectionPanel() {
-        JPanel panel = new JPanel(new GridLayout(3, 3, 5, 5));
+        JPanel panel = new JPanel(new GridLayout(4, 3, 5, 5));
         panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
         JLabel openScenarioLabel = new JLabel("Ausgangs OpenSCENARIO (.xosc):");
-        inputOpenScenarioField = new JTextField();
+        inputOpenScenarioField = new JTextField("C:\\Users\\stefan\\Documents\\FollowLeadingVehicle4.xosc");
         JButton openScenarioButton = new JButton("Auswählen");
         openScenarioButton.addActionListener(e -> selectFile(inputOpenScenarioField, "xosc"));
 
         JLabel documentationLabel = new JLabel("OpenSCENARIO Dokumentation (.xml):");
-        inputDocumentationField = new JTextField();
+        inputDocumentationField = new JTextField("C:\\Users\\stefan\\Documents\\OpenSCENARIO.xml");
         JButton documentationButton = new JButton("Auswählen");
         documentationButton.addActionListener(e -> selectFile(inputDocumentationField, "xml"));
 
         JLabel outputFolderLabel = new JLabel("Zielordner:");
-        outputFolderField = new JTextField();
+        outputFolderField = new JTextField("C:\\Users\\stefan\\Documents\\OpenSCENARIO_output");
         JButton outputFolderButton = new JButton("Auswählen");
         outputFolderButton.addActionListener(e -> selectFolder(outputFolderField));
+
+        JLabel label4 = new JLabel("Max. Feature-Modelle:");
+        maxFeatureModelsField = new JTextField("10");
 
         panel.add(openScenarioLabel);
         panel.add(inputOpenScenarioField);
         panel.add(openScenarioButton);
-
         panel.add(documentationLabel);
         panel.add(inputDocumentationField);
         panel.add(documentationButton);
-
         panel.add(outputFolderLabel);
         panel.add(outputFolderField);
         panel.add(outputFolderButton);
+        panel.add(label4);
+        panel.add(maxFeatureModelsField);
 
         return panel;
     }
 
     private JPanel createFeatureVariationPanel() {
-        JPanel panel = new JPanel(new GridLayout(4, 1, 5, 5));
+    	JPanel panel = new JPanel();
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
         panel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 
-        JLabel featureVariationsLabel = new JLabel("Feature Variationen");
+        JLabel featureVariationsLabel = new JLabel("Feature Variationen (alle Features notwendig): ");
         panel.add(featureVariationsLabel);
 
         weatherCheckbox = new JCheckBox("Wetter");
@@ -121,6 +134,8 @@ public class Choose_Variations extends JFrame {
         agressionCheckbox = new JCheckBox("Agression");
         speedCheckbox = new JCheckBox("Beschleunigung");
         switchTrueFalseCheckbox = new JCheckBox("vertausche Ja/Nein");
+        twiseConfigCheckbox = new JCheckBox("TWise Konfiguration");
+        useRandomConfigCheckbox = new JCheckBox("Zufällige Konfiguration");
         panel.add(weatherCheckbox);
         panel.add(startPositionCheckbox);
         panel.add(waypointsCheckbox);
@@ -128,6 +143,35 @@ public class Choose_Variations extends JFrame {
         panel.add(agressionCheckbox);
         panel.add(speedCheckbox);
         panel.add(switchTrueFalseCheckbox);
+        JPanel separatorPanel = new JPanel(new BorderLayout());
+        JLabel featureVariationsLabe2 = new JLabel("Alternative Variationsmöglichkeiten (vollständige Variation): ");
+        panel.add(featureVariationsLabe2);
+        separatorPanel.add(new JSeparator(), BorderLayout.NORTH);
+        panel.add(Box.createRigidArea(new Dimension(0, 5)));
+        panel.add(useRandomConfigCheckbox);
+        panel.add(twiseConfigCheckbox);
+        
+        JLabel tWiseLabel = new JLabel("T-Wert Anzahl:");
+        tWiseTextField = new JTextField("2");
+
+        tWiseTextField.setPreferredSize(new Dimension(100, 300));
+        tWiseTextField.setMaximumSize(new Dimension(100, 300));
+        tWiseLabel.setVisible(false);
+        tWiseTextField.setVisible(false);
+        panel.add(tWiseLabel);
+        panel.add(tWiseTextField);
+        useRandomConfigCheckbox.addItemListener(e -> {
+            boolean selected = useRandomConfigCheckbox.isSelected();
+            twiseConfigCheckbox.setEnabled(!selected);
+            tWiseLabel.setVisible(false);
+            tWiseTextField.setVisible(false);
+        });
+        twiseConfigCheckbox.addItemListener(e -> {
+            boolean selected = twiseConfigCheckbox.isSelected();
+            useRandomConfigCheckbox.setEnabled(!selected);
+            tWiseLabel.setVisible(selected);
+            tWiseTextField.setVisible(selected);
+        });
 
         return panel;
     }
@@ -137,7 +181,8 @@ public class Choose_Variations extends JFrame {
         return panel;
     }
 
-    private void startVariations() {
+    private void startVariations() throws NoSuchExtensionException, IOException {
+    	LibraryManager.registerLibrary(FMCoreLibrary.getInstance());
         String openScenarioPath = inputOpenScenarioField.getText();
         String documentationPath = inputDocumentationField.getText();
         String outputFolderPath = outputFolderField.getText();
@@ -149,7 +194,11 @@ public class Choose_Variations extends JFrame {
         boolean varyAgression = agressionCheckbox.isSelected();
         boolean varySpeed = speedCheckbox.isSelected();
         boolean switchTrueFalse = switchTrueFalseCheckbox.isSelected();
-        
+        boolean TWiseConfig = twiseConfigCheckbox.isSelected();
+        String maxFeatureModelsInput = maxFeatureModelsField.getText();
+        String tInput = tWiseTextField.getText();
+        int tint = Integer.parseInt(tInput);
+        System.out.println(tint);
         System.out.println("OpenScenario Pfad: " + openScenarioPath);
         System.out.println("Dokumentations Pfad: " + documentationPath);
         System.out.println("Zielordner: " + outputFolderPath);
@@ -177,40 +226,49 @@ public class Choose_Variations extends JFrame {
 		FeatureModel fm=FeatureModelCreation.fillCreateFeatureModel(rootElement, "?xml version=\"1.0\"?",openScenario_required);
 		List<IFeatureStructure> list=new ArrayList<IFeatureStructure>();
         list.add(fm.getStructure().getRoot());
-		StringBuilder xmlBuilder = new StringBuilder();
-		
-		xmlBuilder.append("<?xml version=\"1.0\"?>\n");
-		xmlBuilder = OpenScenarioGenerator.generateOpenScenarioFromFmRecursively(fm, list, xmlBuilder, 0);
-		
+		Boolean allFeaturesReq = false;
 		if (varyWeather) {
 			fm=FeatureModelAdaptions.adaptFeatureModelWeather_add(fm);
+			allFeaturesReq=true;
 		}
 		if (varySpeed) {
 			fm=FeatureModelAdaptions.adaptFeatureModelAcceleration_add(fm);
+			allFeaturesReq=true;
 		}
 		if (switchTrueFalse) {
 			fm=FeatureModelAdaptions.adaptFeatureModelSwitchTrueFalse(fm);
+			allFeaturesReq=true;
 		}
 		if (varyStartPosition) {
 			fm=FeatureModelAdaptions.adaptFeatureModelPosition_add(fm);
+			allFeaturesReq=true;
 		}
 		if (varyWaypoints) {
 			fm=FeatureModelAdaptions.adaptFeatureModelWaypoints_add(fm);
+			allFeaturesReq=true;
 		}
 		if (varyVehicles) {
 			fm=FeatureModelAdaptions.adaptFeatureModelVehicles_add(fm);
+			allFeaturesReq=true;
 		}
 		if (varyAgression) {
 			fm=FeatureModelAdaptions.adaptFeatureModelAgression_add(fm);
+			allFeaturesReq=true;
+		}
+		int maxFeatureModels = Integer.parseInt(maxFeatureModelsInput);
+		FeatureModel tempfm = fm.clone();
+		if(allFeaturesReq) {
+			tempfm = FeatureModelAdaptions.setFmToMandatory(fm);
+			tempfm = FeatureModelAdaptions.addConstraints(tempfm);
+			FeatureModelAdaptions.saveXMLFeatureModel(outputFolderPath + "/" + extractFileName(openScenarioPath) + "_Mandatory_FM.xml", tempfm);
+		}
+		if (TWiseConfig) {
+			FeatureModelAdaptions.createTWiseConfig(tempfm,outputFolderPath+"/Adapted/"+extractFileName(openScenarioPath),tint, maxFeatureModels);
+		}
+		else {
+			FeatureModelAdaptions.createRandomConfig(tempfm,outputFolderPath+"/Adapted/"+extractFileName(openScenarioPath), maxFeatureModels);
 		}
 		FeatureModelAdaptions.saveXMLFeatureModel(outputFolderPath+"/"+extractFileName(openScenarioPath)+"_Adapted_FM.xml",fm);
-		ArrayList<FeatureModel> featureModelList = FeatureModelAdaptions.adaptFeatureModelCreateList(fm, outputFolderPath+"/Adapted/"+extractFileName(openScenarioPath));
-		
-		
-		
-		
-
-        // Hier wird der Zielordner geöffnet
         try {
             Desktop.getDesktop().open(new File(outputFolderPath));
         } catch (IOException e) {
@@ -228,10 +286,8 @@ public class Choose_Variations extends JFrame {
         int lastDotIndex = fileNameWithExtension.lastIndexOf('.');
 
         if (lastDotIndex != -1) {
-            // Extrahiere den Dateinamen ohne Erweiterung
             return fileNameWithExtension.substring(0, lastDotIndex);
         } else {
-            // Falls keine Erweiterung vorhanden ist
             return fileNameWithExtension;
         }
     }
@@ -256,7 +312,6 @@ public class Choose_Variations extends JFrame {
     private void selectFolder(JTextField textField) {
         JFileChooser folderChooser = new JFileChooser();
         folderChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-
         int result = folderChooser.showOpenDialog(this);
         if (result == JFileChooser.APPROVE_OPTION) {
             String selectedFolder = folderChooser.getSelectedFile().getAbsolutePath();
@@ -264,18 +319,13 @@ public class Choose_Variations extends JFrame {
         }
     }
     private static void deleteDirectoryContents(String directoryPath) {
-        // Den Ordner als File-Objekt initialisieren
         File directory = new File(directoryPath);
-        
-        // Alle Dateien und Verzeichnisse im Verzeichnis auflisten
         File[] files = directory.listFiles();
         if (files != null) {
             for (File file : files) {
                 if (file.isDirectory()) {
-                    // Wenn es ein Unterverzeichnis ist, rekursiv löschen
                     deleteDirectoryContents(file.getAbsolutePath());
                 }
-                // Datei oder leeres Verzeichnis löschen
                 boolean success = file.delete();
                 if (!success) {
                     System.out.println("Konnte Datei oder Verzeichnis nicht löschen: " + file.getAbsolutePath());
@@ -289,7 +339,6 @@ public class Choose_Variations extends JFrame {
     }
     public static void openLogFile(File logFile) {
         try {
-            // Befehl zum Öffnen der Datei (für Windows, Linux/Mac benötigt möglicherweise andere Befehle)
             String command = "notepad.exe " + logFile.getAbsolutePath();
             Runtime.getRuntime().exec(command);
         } catch (IOException e) {
@@ -300,21 +349,16 @@ public class Choose_Variations extends JFrame {
 
 class FileSelectionWindow extends JFrame {
 
-    private JTable filesTable;
+    private static final long serialVersionUID = 1L;
+	private JTable filesTable;
     private DefaultTableModel tableModel;
     private JButton executeButton;
 
     public FileSelectionWindow(String outputFolderPath) {
         super("Dateien auswählen");
-
-        // Layout-Manager einstellen (hier: BorderLayout)
         setLayout(new BorderLayout());
-
-        // Initialisiere die Tabelle und den Ausführen-Knopf
         initializeTable(outputFolderPath);
-
-        // JFrame-Einstellungen
-        setSize(400, 300);
+        setSize(600, 800);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
     }
@@ -334,17 +378,12 @@ class FileSelectionWindow extends JFrame {
                 executeSelectedFiles(outputFolderPath);
             }
         });
-        add(executeButton, BorderLayout.SOUTH);
-
-        // Lese die Dateinamen aus dem Zielordner und fülle die Tabelle
-        
+        add(executeButton, BorderLayout.SOUTH);        
         fillTableWithFileNames(outputFolderPath+"/Adapted");
     }
 
     private void fillTableWithFileNames(String folderPath) {
         tableModel.setRowCount(0);
-
-        // Füge die Dateinamen aus dem Zielordner zur Tabelle hinzu (ohne Dateien, die mit "." beginnen)
         File folder = new File(folderPath);
         File[] files = folder.listFiles();
         if (files != null) {
@@ -363,11 +402,9 @@ class FileSelectionWindow extends JFrame {
             for (int row : selectedRows) {
                 selectedFiles.add((String) tableModel.getValueAt(row, 0));
             }
-            //FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\stefan\\Documents\\OpenSCENARIO_output/AdaptedPedestrianCrossingFront6precipitationType_rain_intensity_10_Adapted.xosc'
-
             List<String> command = new ArrayList<>();
             command.add("C:\\Users\\stefan\\PycharmProjects\\Python_BeamNG\\.venv\\Scripts\\python.exe");
-            command.add("C:\\Users\\stefan\\PycharmProjects\\Python_BeamNG\\start_scenario_direct.py");
+            command.add("C:\\Users\\stefan\\PycharmProjects\\Python_BeamNG\\start_scenario_java_refactor.py");
             command.add(outputFolderPath+"\\Adapted\\");
             command.addAll(selectedFiles);
             System.out.println("Selected Files" + selectedFiles);
@@ -377,21 +414,15 @@ class FileSelectionWindow extends JFrame {
 
             try {
                 Process process = processBuilder.start();
-
-                // Lese die Ausgabe des Python-Skripts
                 BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
                 String line;
                 while ((line = reader.readLine()) != null) {
-                    System.out.println(line);  // Gib die Ausgabe in der Java-Konsole aus
+                    System.out.println(line);
                 }
-
-                // Lese die Fehlerausgabe des Python-Skripts (optional)
                 BufferedReader errorReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
                 while ((line = errorReader.readLine()) != null) {
-                    System.err.println(line);  // Gib die Fehlerausgabe in der Java-Konsole aus
+                    System.err.println(line);
                 }
-
-                // Warte auf das Ende des Python-Skripts
                 int exitCode = process.waitFor();
                 System.out.println("Python-Skript beendet mit Exit-Code: " + exitCode);
             } catch (IOException | InterruptedException e) {

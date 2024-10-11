@@ -7,7 +7,6 @@ import at.jku.win.masterarbeit.util.MotherfeatureFeature;
 import at.jku.win.masterarbeit.util.MotherfeatureFeatureLevelMand;
 import de.ovgu.featureide.fm.core.base.IFeature;
 import de.ovgu.featureide.fm.core.base.IFeatureModelStructure;
-import de.ovgu.featureide.fm.core.base.IFeatureProperty;
 import de.ovgu.featureide.fm.core.base.IFeatureStructure;
 import de.ovgu.featureide.fm.core.base.impl.DefaultFeatureModelFactory;
 import de.ovgu.featureide.fm.core.base.impl.Feature;
@@ -19,7 +18,7 @@ public class FeatureModelCreation {
 	public static int c=0;
    
     public static ArrayList<MotherfeatureFeatureLevelMand> fillCreateArraylist(Node node, String parentName, int level) {
-    	ArrayList<MotherfeatureFeatureLevelMand> ar = new ArrayList();
+    	ArrayList<MotherfeatureFeatureLevelMand> ar = new ArrayList<MotherfeatureFeatureLevelMand>();
     	ar.add(new MotherfeatureFeatureLevelMand(null,parentName,level,true));
     	ar=createArraylist(node,parentName, level, ar);
     	return ar;
@@ -57,7 +56,6 @@ public class FeatureModelCreation {
             Feature f = factory.createFeature(fm, "#"+c+" "+node.getNodeName());
             c++;
             IFeatureStructure fStructure = f.getStructure();
-            IFeatureProperty fp=f.getProperty();
 			if (counter==0 && level == 0) {
     			fmStructure.setRoot(fStructure);
     		}
@@ -72,10 +70,7 @@ public class FeatureModelCreation {
 			boolean required = false;
 			for (int i = 0; i < openScenario_required.size(); i++) {
             	if (node.getNodeName().equals(openScenario_required.get(i).getFeature())) {
-            		required=true;
-            		
-            		//System.out.println("!!!!!!!!!!!!!!"+node.getNodeName()+"|||"+ openScenario_required.get(i).getFeature()+"!! "+parentName+"||| "+ openScenario_required.get(i).getMotherfeature());
-            	}
+            		required=true;            	}
             }
             if (node.hasAttributes()) {
                 NamedNodeMap attributes = node.getAttributes();
@@ -86,13 +81,9 @@ public class FeatureModelCreation {
                     for (int i = 0; i < openScenario_required.size(); i++) {
                     	
                     	if (attribute.getNodeName().equals(openScenario_required.get(i).getFeature())&&node.getNodeName().equals(openScenario_required.get(i).getMotherfeature())) {
-                    		required=true;
-                    		
-                    		//System.out.println("!!!!!!!!!!!!!!"+attribute.getNodeName()+"|||"+ openScenario_required.get(i).getFeature()+"!! "+node.getNodeName()+"||| "+ openScenario_required.get(i).getMotherfeature());
-                    	}
+                    		required=true;                    	}
                     }
                     Feature f2=factory.createFeature(fm, "#"+c+" "+attribute.getNodeName()+"|"+attribute.getNodeValue());
-                    //System.out.println(attribute.getNodeValue());
                     if (attribute.getNodeValue().equals("")||attribute.getNodeValue().equals("0")) {
                     	f2.getStructure().setHidden(true);
                     }
