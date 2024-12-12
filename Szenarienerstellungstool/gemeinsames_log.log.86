@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-29T10:38:40.007396300Z</date>
+  <millis>1730198320007</millis>
+  <nanos>396300</nanos>
+  <sequence>306</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:41.878161Z</date>
+  <millis>1730198321878</millis>
+  <nanos>161000</nanos>
+  <sequence>307</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:41.884235Z</date>
+  <millis>1730198321884</millis>
+  <nanos>235000</nanos>
+  <sequence>308</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:43.842039500Z</date>
+  <millis>1730198323842</millis>
+  <nanos>39500</nanos>
+  <sequence>309</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:43.859099900Z</date>
+  <millis>1730198323859</millis>
+  <nanos>99900</nanos>
+  <sequence>310</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:45.776063200Z</date>
+  <millis>1730198325776</millis>
+  <nanos>63200</nanos>
+  <sequence>311</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:45.791140600Z</date>
+  <millis>1730198325791</millis>
+  <nanos>140600</nanos>
+  <sequence>312</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:47.692178300Z</date>
+  <millis>1730198327692</millis>
+  <nanos>178300</nanos>
+  <sequence>313</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:47.708296500Z</date>
+  <millis>1730198327708</millis>
+  <nanos>296500</nanos>
+  <sequence>314</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:49.567345300Z</date>
+  <millis>1730198329567</millis>
+  <nanos>345300</nanos>
+  <sequence>315</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:49.582000500Z</date>
+  <millis>1730198329582</millis>
+  <nanos>500</nanos>
+  <sequence>316</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:51.443089100Z</date>
+  <millis>1730198331443</millis>
+  <nanos>89100</nanos>
+  <sequence>317</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:51.448323300Z</date>
+  <millis>1730198331448</millis>
+  <nanos>323300</nanos>
+  <sequence>318</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:53.394634700Z</date>
+  <millis>1730198333394</millis>
+  <nanos>634700</nanos>
+  <sequence>319</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:53.399622700Z</date>
+  <millis>1730198333399</millis>
+  <nanos>622700</nanos>
+  <sequence>320</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:55.282917200Z</date>
+  <millis>1730198335282</millis>
+  <nanos>917200</nanos>
+  <sequence>321</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:55.288757300Z</date>
+  <millis>1730198335288</millis>
+  <nanos>757300</nanos>
+  <sequence>322</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:57.219496200Z</date>
+  <millis>1730198337219</millis>
+  <nanos>496200</nanos>
+  <sequence>323</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:57.236202100Z</date>
+  <millis>1730198337236</millis>
+  <nanos>202100</nanos>
+  <sequence>324</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:59.181988300Z</date>
+  <millis>1730198339181</millis>
+  <nanos>988300</nanos>
+  <sequence>325</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:38:59.186977100Z</date>
+  <millis>1730198339186</millis>
+  <nanos>977100</nanos>
+  <sequence>326</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:01.147779600Z</date>
+  <millis>1730198341147</millis>
+  <nanos>779600</nanos>
+  <sequence>327</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:01.150767400Z</date>
+  <millis>1730198341150</millis>
+  <nanos>767400</nanos>
+  <sequence>328</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:03.093033700Z</date>
+  <millis>1730198343093</millis>
+  <nanos>33700</nanos>
+  <sequence>329</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:03.110334600Z</date>
+  <millis>1730198343110</millis>
+  <nanos>334600</nanos>
+  <sequence>330</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:05.028618700Z</date>
+  <millis>1730198345028</millis>
+  <nanos>618700</nanos>
+  <sequence>331</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:05.034882100Z</date>
+  <millis>1730198345034</millis>
+  <nanos>882100</nanos>
+  <sequence>332</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:06.923254400Z</date>
+  <millis>1730198346923</millis>
+  <nanos>254400</nanos>
+  <sequence>333</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:06.939101200Z</date>
+  <millis>1730198346939</millis>
+  <nanos>101200</nanos>
+  <sequence>334</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:08.907026300Z</date>
+  <millis>1730198348907</millis>
+  <nanos>26300</nanos>
+  <sequence>335</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:08.923694800Z</date>
+  <millis>1730198348923</millis>
+  <nanos>694800</nanos>
+  <sequence>336</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:10.880709500Z</date>
+  <millis>1730198350880</millis>
+  <nanos>709500</nanos>
+  <sequence>337</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:10.897756400Z</date>
+  <millis>1730198350897</millis>
+  <nanos>756400</nanos>
+  <sequence>338</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:12.804988900Z</date>
+  <millis>1730198352804</millis>
+  <nanos>988900</nanos>
+  <sequence>339</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:12.813978300Z</date>
+  <millis>1730198352813</millis>
+  <nanos>978300</nanos>
+  <sequence>340</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:14.861487900Z</date>
+  <millis>1730198354861</millis>
+  <nanos>487900</nanos>
+  <sequence>341</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:14.878508500Z</date>
+  <millis>1730198354878</millis>
+  <nanos>508500</nanos>
+  <sequence>342</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:16.925763400Z</date>
+  <millis>1730198356925</millis>
+  <nanos>763400</nanos>
+  <sequence>343</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:16.931743300Z</date>
+  <millis>1730198356931</millis>
+  <nanos>743300</nanos>
+  <sequence>344</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:18.996579400Z</date>
+  <millis>1730198358996</millis>
+  <nanos>579400</nanos>
+  <sequence>345</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:19.003507100Z</date>
+  <millis>1730198359003</millis>
+  <nanos>507100</nanos>
+  <sequence>346</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:21.160703800Z</date>
+  <millis>1730198361160</millis>
+  <nanos>703800</nanos>
+  <sequence>347</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:21.175825800Z</date>
+  <millis>1730198361175</millis>
+  <nanos>825800</nanos>
+  <sequence>348</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:23.944599600Z</date>
+  <millis>1730198363944</millis>
+  <nanos>599600</nanos>
+  <sequence>349</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:23.953346500Z</date>
+  <millis>1730198363953</millis>
+  <nanos>346500</nanos>
+  <sequence>350</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:26.850612500Z</date>
+  <millis>1730198366850</millis>
+  <nanos>612500</nanos>
+  <sequence>351</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:26.859100900Z</date>
+  <millis>1730198366859</millis>
+  <nanos>100900</nanos>
+  <sequence>352</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:29.173977900Z</date>
+  <millis>1730198369173</millis>
+  <nanos>977900</nanos>
+  <sequence>353</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:29.182946Z</date>
+  <millis>1730198369182</millis>
+  <nanos>946000</nanos>
+  <sequence>354</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:31.749007600Z</date>
+  <millis>1730198371749</millis>
+  <nanos>7600</nanos>
+  <sequence>355</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:31.767513800Z</date>
+  <millis>1730198371767</millis>
+  <nanos>513800</nanos>
+  <sequence>356</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:33.741430400Z</date>
+  <millis>1730198373741</millis>
+  <nanos>430400</nanos>
+  <sequence>357</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:33.747409700Z</date>
+  <millis>1730198373747</millis>
+  <nanos>409700</nanos>
+  <sequence>358</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:35.676926300Z</date>
+  <millis>1730198375676</millis>
+  <nanos>926300</nanos>
+  <sequence>359</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:35.684541Z</date>
+  <millis>1730198375684</millis>
+  <nanos>541000</nanos>
+  <sequence>360</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:37.550863Z</date>
+  <millis>1730198377550</millis>
+  <nanos>863000</nanos>
+  <sequence>361</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:37.558843500Z</date>
+  <millis>1730198377558</millis>
+  <nanos>843500</nanos>
+  <sequence>362</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:39.459143900Z</date>
+  <millis>1730198379459</millis>
+  <nanos>143900</nanos>
+  <sequence>363</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:39.466568300Z</date>
+  <millis>1730198379466</millis>
+  <nanos>568300</nanos>
+  <sequence>364</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:41.337640Z</date>
+  <millis>1730198381337</millis>
+  <nanos>640000</nanos>
+  <sequence>365</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:41.344665200Z</date>
+  <millis>1730198381344</millis>
+  <nanos>665200</nanos>
+  <sequence>366</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:43.257541600Z</date>
+  <millis>1730198383257</millis>
+  <nanos>541600</nanos>
+  <sequence>367</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:43.273920Z</date>
+  <millis>1730198383273</millis>
+  <nanos>920000</nanos>
+  <sequence>368</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:45.231111700Z</date>
+  <millis>1730198385231</millis>
+  <nanos>111700</nanos>
+  <sequence>369</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:45.236101700Z</date>
+  <millis>1730198385236</millis>
+  <nanos>101700</nanos>
+  <sequence>370</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:47.110948100Z</date>
+  <millis>1730198387110</millis>
+  <nanos>948100</nanos>
+  <sequence>371</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:47.114937200Z</date>
+  <millis>1730198387114</millis>
+  <nanos>937200</nanos>
+  <sequence>372</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:49.043992100Z</date>
+  <millis>1730198389043</millis>
+  <nanos>992100</nanos>
+  <sequence>373</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:49.049973700Z</date>
+  <millis>1730198389049</millis>
+  <nanos>973700</nanos>
+  <sequence>374</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:50.963537300Z</date>
+  <millis>1730198390963</millis>
+  <nanos>537300</nanos>
+  <sequence>375</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:50.967604400Z</date>
+  <millis>1730198390967</millis>
+  <nanos>604400</nanos>
+  <sequence>376</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:52.866344200Z</date>
+  <millis>1730198392866</millis>
+  <nanos>344200</nanos>
+  <sequence>377</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:52.869428100Z</date>
+  <millis>1730198392869</millis>
+  <nanos>428100</nanos>
+  <sequence>378</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:54.815603800Z</date>
+  <millis>1730198394815</millis>
+  <nanos>603800</nanos>
+  <sequence>379</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:54.819682500Z</date>
+  <millis>1730198394819</millis>
+  <nanos>682500</nanos>
+  <sequence>380</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:56.771472400Z</date>
+  <millis>1730198396771</millis>
+  <nanos>472400</nanos>
+  <sequence>381</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:56.774424300Z</date>
+  <millis>1730198396774</millis>
+  <nanos>424300</nanos>
+  <sequence>382</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:58.701050500Z</date>
+  <millis>1730198398701</millis>
+  <nanos>50500</nanos>
+  <sequence>383</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:39:58.705100800Z</date>
+  <millis>1730198398705</millis>
+  <nanos>100800</nanos>
+  <sequence>384</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:00.662462100Z</date>
+  <millis>1730198400662</millis>
+  <nanos>462100</nanos>
+  <sequence>385</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:00.666433400Z</date>
+  <millis>1730198400666</millis>
+  <nanos>433400</nanos>
+  <sequence>386</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:02.551415Z</date>
+  <millis>1730198402551</millis>
+  <nanos>415000</nanos>
+  <sequence>387</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:02.554444900Z</date>
+  <millis>1730198402554</millis>
+  <nanos>444900</nanos>
+  <sequence>388</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:04.518839500Z</date>
+  <millis>1730198404518</millis>
+  <nanos>839500</nanos>
+  <sequence>389</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:04.522339800Z</date>
+  <millis>1730198404522</millis>
+  <nanos>339800</nanos>
+  <sequence>390</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:06.417821500Z</date>
+  <millis>1730198406417</millis>
+  <nanos>821500</nanos>
+  <sequence>391</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:06.422910200Z</date>
+  <millis>1730198406422</millis>
+  <nanos>910200</nanos>
+  <sequence>392</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:08.650297300Z</date>
+  <millis>1730198408650</millis>
+  <nanos>297300</nanos>
+  <sequence>393</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:08.653596600Z</date>
+  <millis>1730198408653</millis>
+  <nanos>596600</nanos>
+  <sequence>394</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:10.552866200Z</date>
+  <millis>1730198410552</millis>
+  <nanos>866200</nanos>
+  <sequence>395</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:10.556854600Z</date>
+  <millis>1730198410556</millis>
+  <nanos>854600</nanos>
+  <sequence>396</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:12.459858300Z</date>
+  <millis>1730198412459</millis>
+  <nanos>858300</nanos>
+  <sequence>397</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:12.463844700Z</date>
+  <millis>1730198412463</millis>
+  <nanos>844700</nanos>
+  <sequence>398</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:14.456846200Z</date>
+  <millis>1730198414456</millis>
+  <nanos>846200</nanos>
+  <sequence>399</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:14.460928600Z</date>
+  <millis>1730198414460</millis>
+  <nanos>928600</nanos>
+  <sequence>400</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:16.385759200Z</date>
+  <millis>1730198416385</millis>
+  <nanos>759200</nanos>
+  <sequence>401</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:16.390950900Z</date>
+  <millis>1730198416390</millis>
+  <nanos>950900</nanos>
+  <sequence>402</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:18.272035500Z</date>
+  <millis>1730198418272</millis>
+  <nanos>35500</nanos>
+  <sequence>403</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:18.277019700Z</date>
+  <millis>1730198418277</millis>
+  <nanos>19700</nanos>
+  <sequence>404</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:20.235344100Z</date>
+  <millis>1730198420235</millis>
+  <nanos>344100</nanos>
+  <sequence>405</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:20.238420Z</date>
+  <millis>1730198420238</millis>
+  <nanos>420000</nanos>
+  <sequence>406</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:22.173390200Z</date>
+  <millis>1730198422173</millis>
+  <nanos>390200</nanos>
+  <sequence>407</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:22.178372Z</date>
+  <millis>1730198422178</millis>
+  <nanos>372000</nanos>
+  <sequence>408</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:24.177938100Z</date>
+  <millis>1730198424177</millis>
+  <nanos>938100</nanos>
+  <sequence>409</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:24.181924300Z</date>
+  <millis>1730198424181</millis>
+  <nanos>924300</nanos>
+  <sequence>410</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:26.024386200Z</date>
+  <millis>1730198426024</millis>
+  <nanos>386200</nanos>
+  <sequence>411</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:26.028370Z</date>
+  <millis>1730198426028</millis>
+  <nanos>370000</nanos>
+  <sequence>412</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:27.903393600Z</date>
+  <millis>1730198427903</millis>
+  <nanos>393600</nanos>
+  <sequence>413</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:27.907391100Z</date>
+  <millis>1730198427907</millis>
+  <nanos>391100</nanos>
+  <sequence>414</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:29.855009700Z</date>
+  <millis>1730198429855</millis>
+  <nanos>9700</nanos>
+  <sequence>415</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:29.860510700Z</date>
+  <millis>1730198429860</millis>
+  <nanos>510700</nanos>
+  <sequence>416</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:31.865223600Z</date>
+  <millis>1730198431865</millis>
+  <nanos>223600</nanos>
+  <sequence>417</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:31.870481300Z</date>
+  <millis>1730198431870</millis>
+  <nanos>481300</nanos>
+  <sequence>418</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:33.824820700Z</date>
+  <millis>1730198433824</millis>
+  <nanos>820700</nanos>
+  <sequence>419</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:33.828402300Z</date>
+  <millis>1730198433828</millis>
+  <nanos>402300</nanos>
+  <sequence>420</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:35.812748500Z</date>
+  <millis>1730198435812</millis>
+  <nanos>748500</nanos>
+  <sequence>421</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:35.815737Z</date>
+  <millis>1730198435815</millis>
+  <nanos>737000</nanos>
+  <sequence>422</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:37.791827700Z</date>
+  <millis>1730198437791</millis>
+  <nanos>827700</nanos>
+  <sequence>423</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:37.795840700Z</date>
+  <millis>1730198437795</millis>
+  <nanos>840700</nanos>
+  <sequence>424</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:39.742941400Z</date>
+  <millis>1730198439742</millis>
+  <nanos>941400</nanos>
+  <sequence>425</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:39.746010300Z</date>
+  <millis>1730198439746</millis>
+  <nanos>10300</nanos>
+  <sequence>426</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:41.631449400Z</date>
+  <millis>1730198441631</millis>
+  <nanos>449400</nanos>
+  <sequence>427</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:41.635549700Z</date>
+  <millis>1730198441635</millis>
+  <nanos>549700</nanos>
+  <sequence>428</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:43.533897800Z</date>
+  <millis>1730198443533</millis>
+  <nanos>897800</nanos>
+  <sequence>429</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:43.536933500Z</date>
+  <millis>1730198443536</millis>
+  <nanos>933500</nanos>
+  <sequence>430</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:45.593814100Z</date>
+  <millis>1730198445593</millis>
+  <nanos>814100</nanos>
+  <sequence>431</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:45.597907200Z</date>
+  <millis>1730198445597</millis>
+  <nanos>907200</nanos>
+  <sequence>432</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:47.614720600Z</date>
+  <millis>1730198447614</millis>
+  <nanos>720600</nanos>
+  <sequence>433</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:47.619723700Z</date>
+  <millis>1730198447619</millis>
+  <nanos>723700</nanos>
+  <sequence>434</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:49.656488100Z</date>
+  <millis>1730198449656</millis>
+  <nanos>488100</nanos>
+  <sequence>435</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Prozess neustarten aufgrund von Terminierung.</message>
+</record>
+<record>
+  <date>2024-10-29T10:40:49.659441900Z</date>
+  <millis>1730198449659</millis>
+  <nanos>441900</nanos>
+  <sequence>436</sequence>
+  <logger>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</logger>
+  <level>INFO</level>
+  <class>at.jku.win.masterarbeit.szenarienerstellungstool.FileSelectionWindow</class>
+  <method>executeSelectedFiles</method>
+  <thread>20</thread>
+  <message>Selected Files: [FollowLeadingVehicle4_3_11_Random.xosc, FollowLeadingVehicle4_3_12_Random.xosc, FollowLeadingVehicle4_3_13_Random.xosc, FollowLeadingVehicle4_3_14_Random.xosc, FollowLeadingVehicle4_3_15_Random.xosc, FollowLeadingVehicle4_3_16_Random.xosc, FollowLeadingVehicle4_3_17_Random.xosc, FollowLeadingVehicle4_3_18_Random.xosc, FollowLeadingVehicle4_3_19_Random.xosc, FollowLeadingVehicle4_3_1_Random.xosc, FollowLeadingVehicle4_3_20_Random.xosc, FollowLeadingVehicle4_3_21_Random.xosc, FollowLeadingVehicle4_3_22_Random.xosc, FollowLeadingVehicle4_3_23_Random.xosc, FollowLeadingVehicle4_3_24_Random.xosc, FollowLeadingVehicle4_3_25_Random.xosc, FollowLeadingVehicle4_3_26_Random.xosc, FollowLeadingVehicle4_3_27_Random.xosc, FollowLeadingVehicle4_3_28_Random.xosc, FollowLeadingVehicle4_3_29_Random.xosc, FollowLeadingVehicle4_3_2_Random.xosc, FollowLeadingVehicle4_3_30_Random.xosc, FollowLeadingVehicle4_3_31_Random.xosc, FollowLeadingVehicle4_3_32_Random.xosc, FollowLeadingVehicle4_3_33_Random.xosc, FollowLeadingVehicle4_3_34_Random.xosc, FollowLeadingVehicle4_3_35_Random.xosc, FollowLeadingVehicle4_3_36_Random.xosc, FollowLeadingVehicle4_3_37_Random.xosc, FollowLeadingVehicle4_3_38_Random.xosc, FollowLeadingVehicle4_3_39_Random.xosc, FollowLeadingVehicle4_3_3_Random.xosc, FollowLeadingVehicle4_3_40_Random.xosc, FollowLeadingVehicle4_3_41_Random.xosc, FollowLeadingVehicle4_3_42_Random.xosc, FollowLeadingVehicle4_3_43_Random.xosc, FollowLeadingVehicle4_3_44_Random.xosc, FollowLeadingVehicle4_3_45_Random.xosc, FollowLeadingVehicle4_3_46_Random.xosc, FollowLeadingVehicle4_3_47_Random.xosc, FollowLeadingVehicle4_3_48_Random.xosc, FollowLeadingVehicle4_3_49_Random.xosc, FollowLeadingVehicle4_3_4_Random.xosc, FollowLeadingVehicle4_3_5_Random.xosc, FollowLeadingVehicle4_3_6_Random.xosc, FollowLeadingVehicle4_3_7_Random.xosc, FollowLeadingVehicle4_3_8_Random.xosc, FollowLeadingVehicle4_3_9_Random.xosc]</message>
+</record>

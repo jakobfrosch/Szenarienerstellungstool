@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<struct>
+		<and mandatory="true" name="#2035 OpenSCENARIO">
+			<and hidden="true" mandatory="true" name="#2036 FileHeader">
+				<feature hidden="true" mandatory="true" name="#2037 author|"/>
+				<feature mandatory="true" name="#2038 date|2020-03-20T12:00:00"/>
+				<feature mandatory="true" name="#2039 description|CARLA:FollowLeadingVehicle"/>
+				<feature mandatory="true" name="#2040 revMajor|1"/>
+				<feature hidden="true" mandatory="true" name="#2041 revMinor|0"/>
+			</and>
+			<and mandatory="true" name="#2042 ParameterDeclarations">
+				<and mandatory="true" name="#2043 ParameterDeclaration">
+					<feature mandatory="true" name="#2044 name|leadingSpeed"/>
+					<feature mandatory="true" name="#2045 parameterType|double"/>
+					<feature mandatory="true" name="#2046 value|2.0"/>
+				</and>
+			</and>
+			<feature hidden="true" mandatory="true" name="#2047 CatalogLocations"/>
+			<and mandatory="true" name="#2048 RoadNetwork">
+				<and mandatory="true" name="#2049 LogicFile">
+					<feature mandatory="true" name="#2050 filepath|Town01"/>
+				</and>
+				<and mandatory="true" name="#2051 SceneGraphFile">
+					<feature hidden="true" mandatory="true" name="#2052 filepath|"/>
+				</and>
+			</and>
+			<and mandatory="true" name="#2053 Entities">
+				<and mandatory="true" name="#2054 ScenarioObject">
+					<feature mandatory="true" name="#2055 name|hero"/>
+					<and mandatory="true" name="#2056 Vehicle">
+						<feature mandatory="true" name="#2057 name|etk800"/>
+						<feature mandatory="true" name="#2058 vehicleCategory|car"/>
+						<feature hidden="true" mandatory="true" name="#2059 ParameterDeclarations"/>
+						<and mandatory="true" name="#2060 Performance">
+							<feature mandatory="true" name="#2061 maxAcceleration|200"/>
+							<feature mandatory="true" name="#2062 maxDeceleration|10.0"/>
+							<feature mandatory="true" name="#2063 maxSpeed|69.444"/>
+						</and>
+						<and mandatory="true" name="#2064 BoundingBox">
+							<and mandatory="true" name="#2065 Center">
+								<feature mandatory="true" name="#2066 x|1.5"/>
+								<feature mandatory="true" name="#2067 y|0.0"/>
+								<feature mandatory="true" name="#2068 z|0.9"/>
+							</and>
+							<and mandatory="true" name="#2069 Dimensions">
+								<feature mandatory="true" name="#2070 height|1.8"/>
+								<feature mandatory="true" name="#2071 length|4.5"/>
+								<feature mandatory="true" name="#2072 width|2.1"/>
+							</and>
+						</and>
+						<and mandatory="true" name="#2073 Axles">
+							<and mandatory="true" name="#2074 FrontAxle">
+								<feature mandatory="true" name="#2075 maxSteering|0.5"/>
+								<feature mandatory="true" name="#2076 positionX|3.1"/>
+								<feature mandatory="true" name="#2077 positionZ|0.3"/>
+								<feature mandatory="true" name="#2078 trackWidth|1.8"/>
+								<feature mandatory="true" name="#2079 wheelDiameter|0.6"/>
+							</and>
+							<and mandatory="true" name="#2080 RearAxle">
+								<feature mandatory="true" name="#2081 maxSteering|0.0"/>
+								<feature mandatory="true" name="#2082 positionX|0.0"/>
+								<feature mandatory="true" name="#2083 positionZ|0.3"/>
+								<feature mandatory="true" name="#2084 trackWidth|1.8"/>
+								<feature mandatory="true" name="#2085 wheelDiameter|0.6"/>
+							</and>
+						</and>
+						<and mandatory="true" name="#2086 Properties">
+							<and mandatory="true" name="#2087 Property">
+								<feature mandatory="true" name="#2088 name|type"/>
+								<feature mandatory="true" name="#2089 value|ego_vehicle"/>
+							</and>
+							<and mandatory="true" name="#2090 Property">
+								<feature mandatory="true" name="#2091 name|color"/>
+								<feature mandatory="true" name="#2092 value|0,0,255"/>
+							</and>
+						</and>
+					</and>
+				</and>
+				<and mandatory="true" name="#2093 ScenarioObject">
+					<feature mandatory="true" name="#2094 name|adversary"/>
+					<and mandatory="true" name="#2095 Vehicle">
+						<feature mandatory="true" name="#2096 name|etk800"/>
+						<feature mandatory="true" name="#2097 vehicleCategory|car"/>
+						<feature hidden="true" mandatory="true" name="#2098 ParameterDeclarations"/>
+						<and mandatory="true" name="#2099 Performance">
+							<feature mandatory="true" name="#2100 maxAcceleration|200"/>
+							<feature mandatory="true" name="#2101 maxDeceleration|10.0"/>
+							<feature mandatory="true" name="#2102 maxSpeed|69.444"/>
+						</and>
+						<and mandatory="true" name="#2103 BoundingBox">
+							<and mandatory="true" name="#2104 Center">
+								<feature mandatory="true" name="#2105 x|1.5"/>
+								<feature mandatory="true" name="#2106 y|0.0"/>
+								<feature mandatory="true" name="#2107 z|0.9"/>
+							</and>
+							<and mandatory="true" name="#2108 Dimensions">
+								<feature mandatory="true" name="#2109 height|1.8"/>
+								<feature mandatory="true" name="#2110 length|4.5"/>
+								<feature mandatory="true" name="#2111 width|2.1"/>
+							</and>
+						</and>
+						<and mandatory="true" name="#2112 Axles">
+							<and mandatory="true" name="#2113 FrontAxle">
+								<feature mandatory="true" name="#2114 maxSteering|0.5"/>
+								<feature mandatory="true" name="#2115 positionX|3.1"/>
+								<feature mandatory="true" name="#2116 positionZ|0.3"/>
+								<feature mandatory="true" name="#2117 trackWidth|1.8"/>
+								<feature mandatory="true" name="#2118 wheelDiameter|0.6"/>
+							</and>
+							<and mandatory="true" name="#2119 RearAxle">
+								<feature mandatory="true" name="#2120 maxSteering|0.0"/>
+								<feature mandatory="true" name="#2121 positionX|0.0"/>
+								<feature mandatory="true" name="#2122 positionZ|0.3"/>
+								<feature mandatory="true" name="#2123 trackWidth|1.8"/>
+								<feature mandatory="true" name="#2124 wheelDiameter|0.6"/>
+							</and>
+						</and>
+						<and mandatory="true" name="#2125 Properties">
+							<and mandatory="true" name="#2126 Property">
+								<feature mandatory="true" name="#2127 name|type"/>
+								<feature mandatory="true" name="#2128 value|simulation"/>
+							</and>
+							<and mandatory="true" name="#2129 Property">
+								<feature mandatory="true" name="#2130 name|color"/>
+								<feature mandatory="true" name="#2131 value|255,0,0"/>
+							</and>
+						</and>
+					</and>
+				</and>
+			</and>
+			<and mandatory="true" name="#2132 Storyboard">
+				<and mandatory="true" name="#2133 Init">
+					<and mandatory="true" name="#2134 Actions">
+						<and mandatory="true" name="#2135 GlobalAction">
+							<and mandatory="true" name="#2136 EnvironmentAction">
+								<and mandatory="true" name="#2137 Environment">
+									<feature mandatory="true" name="#2138 name|Environment1"/>
+									<and mandatory="true" name="#2139 TimeOfDay">
+										<feature mandatory="true" name="#2140 animation|false"/>
+										<feature mandatory="true" name="#2141 dateTime|2020-03-20T10:30:00"/>
+									</and>
+									<and mandatory="true" name="#2142 Weather">
+										<feature mandatory="true" name="#2143 cloudState|free"/>
+										<and mandatory="true" name="#2144 Sun">
+											<feature hidden="true" mandatory="true" name="#2145 azimuth|0"/>
+											<feature mandatory="true" name="#2146 elevation|1.31"/>
+											<feature mandatory="true" name="#2147 intensity|0.85"/>
+										</and>
+										<and mandatory="true" name="#2148 Fog">
+											<feature mandatory="true" name="#2149 visualRange|100000.0"/>
+										</and>
+										<and mandatory="true" name="#2150 Precipitation">
+											<alt mandatory="true" name="#2151 intensity|alt">
+												<feature name="#2151_1 intensity|0.5"/>
+												<feature name="#2151_2 intensity|1"/>
+												<feature name="#2151_3 intensity|0"/>
+											</alt>
+											<alt mandatory="true" name="#2152 precipitationType|alt">
+												<feature name="#2152_1 precipitationType|rain"/>
+												<feature name="#2152_2 precipitationType|snow"/>
+												<feature name="#2152_3 precipitationType|hail"/>
+											</alt>
+										</and>
+									</and>
+									<and mandatory="true" name="#2153 RoadCondition">
+										<feature mandatory="true" name="#2154 frictionScaleFactor|1.0"/>
+									</and>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2155 Private">
+							<feature mandatory="true" name="#2156 entityRef|hero"/>
+							<and mandatory="true" name="#2157 PrivateAction">
+								<and mandatory="true" name="#2158 TeleportAction">
+									<and mandatory="true" name="#2159 Position">
+										<and mandatory="true" name="#2160 WorldPosition">
+											<feature hidden="true" mandatory="true" name="#2161 h|0"/>
+											<feature mandatory="true" name="#2162 x|-725"/>
+											<feature mandatory="true" name="#2163 y|101"/>
+											<feature mandatory="true" name="#2164 z|118"/>
+										</and>
+									</and>
+								</and>
+							</and>
+							<and mandatory="true" name="#2165 PrivateAction">
+								<and mandatory="true" name="#2166 ControllerAction">
+									<and mandatory="true" name="#2167 AssignControllerAction">
+										<and mandatory="true" name="#2168 Controller">
+											<feature mandatory="true" name="#2169 name|HeroAgent"/>
+											<and mandatory="true" name="#2170 Properties">
+												<and mandatory="true" name="#2171 Property">
+													<feature mandatory="true" name="#2172 name|module"/>
+													<feature mandatory="true" name="#2173 value|external_control"/>
+												</and>
+											</and>
+										</and>
+									</and>
+									<and mandatory="true" name="#2174 OverrideControllerValueAction">
+										<and mandatory="true" name="#2175 Throttle">
+											<feature mandatory="true" name="#2176 active|false"/>
+											<feature hidden="true" mandatory="true" name="#2177 value|0"/>
+										</and>
+										<and mandatory="true" name="#2178 Brake">
+											<feature mandatory="true" name="#2179 active|false"/>
+											<feature hidden="true" mandatory="true" name="#2180 value|0"/>
+										</and>
+										<and mandatory="true" name="#2181 Clutch">
+											<feature mandatory="true" name="#2182 active|false"/>
+											<feature hidden="true" mandatory="true" name="#2183 value|0"/>
+										</and>
+										<and mandatory="true" name="#2184 ParkingBrake">
+											<feature mandatory="true" name="#2185 active|false"/>
+											<feature hidden="true" mandatory="true" name="#2186 value|0"/>
+										</and>
+										<and mandatory="true" name="#2187 SteeringWheel">
+											<feature mandatory="true" name="#2188 active|false"/>
+											<feature hidden="true" mandatory="true" name="#2189 value|0"/>
+										</and>
+										<and mandatory="true" name="#2190 Gear">
+											<feature mandatory="true" name="#2191 active|false"/>
+											<feature hidden="true" mandatory="true" name="#2192 number|0"/>
+										</and>
+									</and>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2193 Private">
+							<feature mandatory="true" name="#2194 entityRef|adversary"/>
+							<and mandatory="true" name="#2195 PrivateAction">
+								<and mandatory="true" name="#2196 TeleportAction">
+									<and mandatory="true" name="#2197 Position">
+										<and mandatory="true" name="#2198 WorldPosition">
+											<feature hidden="true" mandatory="true" name="#2199 h|0"/>
+											<feature mandatory="true" name="#2200 x|-737.4384916126728"/>
+											<feature mandatory="true" name="#2201 y|88.3228699862957"/>
+											<feature mandatory="true" name="#2202 z|118.36918145092204"/>
+										</and>
+									</and>
+								</and>
+							</and>
+						</and>
+					</and>
+				</and>
+				<and mandatory="true" name="#2203 Story">
+					<feature mandatory="true" name="#2204 name|MyStory"/>
+					<and mandatory="true" name="#2205 Act">
+						<feature mandatory="true" name="#2206 name|Behavior"/>
+						<and mandatory="true" name="#2207 ManeuverGroup">
+							<feature mandatory="true" name="#2208 maximumExecutionCount|1"/>
+							<feature mandatory="true" name="#2209 name|ManeuverSequence"/>
+							<and mandatory="true" name="#2210 Actors">
+								<feature mandatory="true" name="#2211 selectTriggeringEntities|false"/>
+								<and mandatory="true" name="#2212 EntityRef">
+									<feature mandatory="true" name="#2213 entityRef|adversary"/>
+								</and>
+							</and>
+							<and mandatory="true" name="#2214 Maneuver">
+								<feature mandatory="true" name="#2215 name|FollowLeadingVehicleManeuver"/>
+								<and mandatory="true" name="#2216 Event">
+									<feature mandatory="true" name="#2217 name|LeadingVehicleKeepsVelocity"/>
+									<feature mandatory="true" name="#2218 priority|overwrite"/>
+									<and mandatory="true" name="#2219 Action">
+										<feature mandatory="true" name="#2220 name|LeadingVehicleKeepsVelocity"/>
+										<and mandatory="true" name="#2221 PrivateAction">
+											<and mandatory="true" name="#2222 LongitudinalAction">
+												<and mandatory="true" name="#2223 SpeedAction">
+													<and mandatory="true" name="#2224 SpeedActionTarget">
+														<and mandatory="true" name="#2225 AbsoluteTargetSpeed">
+															<feature mandatory="true" name="#2226 value|$leadingSpeed"/>
+														</and>
+													</and>
+												</and>
+											</and>
+										</and>
+									</and>
+									<and mandatory="true" name="#2227 StartTrigger">
+										<and mandatory="true" name="#2228 ConditionGroup">
+											<and mandatory="true" name="#2229 Condition">
+												<feature mandatory="true" name="#2230 conditionEdge|rising"/>
+												<feature hidden="true" mandatory="true" name="#2231 delay|0"/>
+												<feature mandatory="true" name="#2232 name|StartConditionLeadingVehicleKeepsVelocity"/>
+												<and mandatory="true" name="#2233 ByEntityCondition">
+													<and mandatory="true" name="#2234 TriggeringEntities">
+														<feature mandatory="true" name="#2235 triggeringEntitiesRule|any"/>
+														<and mandatory="true" name="#2236 EntityRef">
+															<feature mandatory="true" name="#2237 entityRef|hero"/>
+														</and>
+													</and>
+													<and mandatory="true" name="#2238 EntityCondition">
+														<and mandatory="true" name="#2239 RelativeDistanceCondition">
+															<feature mandatory="true" name="#2240 entityRef|adversary"/>
+															<feature mandatory="true" name="#2241 freespace|true"/>
+															<feature mandatory="true" name="#2242 relativeDistanceType|longitudinal"/>
+															<feature mandatory="true" name="#2243 rule|lessThan"/>
+															<feature mandatory="true" name="#2244 value|40.0"/>
+														</and>
+													</and>
+												</and>
+											</and>
+										</and>
+									</and>
+								</and>
+								<and mandatory="true" name="#2245 Event">
+									<feature mandatory="true" name="#2246 name|LeadingVehicleStops"/>
+									<feature mandatory="true" name="#2247 priority|overwrite"/>
+									<and mandatory="true" name="#2248 Action">
+										<feature mandatory="true" name="#2249 name|LeadingVehicleStops"/>
+										<and mandatory="true" name="#2250 PrivateAction">
+											<and mandatory="true" name="#2251 LongitudinalAction">
+												<and mandatory="true" name="#2252 SpeedAction">
+													<and mandatory="true" name="#2253 SpeedActionDynamics">
+														<feature mandatory="true" name="#2254 dynamicsDimension|time"/>
+														<feature mandatory="true" name="#2255 dynamicsShape|step"/>
+														<feature mandatory="true" name="#2256 value|10"/>
+													</and>
+													<and mandatory="true" name="#2257 SpeedActionTarget">
+														<and mandatory="true" name="#2258 AbsoluteTargetSpeed">
+															<feature mandatory="true" name="#2259 value|0.0"/>
+														</and>
+													</and>
+												</and>
+											</and>
+										</and>
+									</and>
+									<and mandatory="true" name="#2260 StartTrigger">
+										<and mandatory="true" name="#2261 ConditionGroup">
+											<and mandatory="true" name="#2262 Condition">
+												<feature mandatory="true" name="#2263 conditionEdge|rising"/>
+												<feature hidden="true" mandatory="true" name="#2264 delay|0"/>
+												<feature mandatory="true" name="#2265 name|AfterLeadingVehicleKeepsVelocity"/>
+												<and mandatory="true" name="#2266 ByValueCondition">
+													<and mandatory="true" name="#2267 StoryboardElementStateCondition">
+														<feature mandatory="true" name="#2268 state|endTransition"/>
+														<feature mandatory="true" name="#2269 storyboardElementRef|LeadingVehicleKeepsVelocity"/>
+														<feature mandatory="true" name="#2270 storyboardElementType|action"/>
+													</and>
+												</and>
+											</and>
+										</and>
+									</and>
+								</and>
+								<and mandatory="true" name="#2271 Event">
+									<feature mandatory="true" name="#2272 name|AfterLeadingVehicleWaits"/>
+									<feature mandatory="true" name="#2273 priority|overwrite"/>
+									<and mandatory="true" name="#2274 Action">
+										<feature mandatory="true" name="#2275 name|AfterLeadingVehicleWaits"/>
+										<and mandatory="true" name="#2276 PrivateAction">
+											<and mandatory="true" name="#2277 LongitudinalAction">
+												<and mandatory="true" name="#2278 SpeedAction">
+													<and mandatory="true" name="#2279 SpeedActionTarget">
+														<and mandatory="true" name="#2280 AbsoluteTargetSpeed">
+															<feature mandatory="true" name="#2281 value|25.0"/>
+														</and>
+													</and>
+												</and>
+											</and>
+										</and>
+									</and>
+									<and mandatory="true" name="#2282 StartTrigger">
+										<and mandatory="true" name="#2283 ConditionGroup">
+											<and mandatory="true" name="#2284 Condition">
+												<feature mandatory="true" name="#2285 conditionEdge|rising"/>
+												<feature mandatory="true" name="#2286 delay|10"/>
+												<feature mandatory="true" name="#2287 name|AfterLeadingVehicleWaits"/>
+												<and mandatory="true" name="#2288 ByValueCondition">
+													<and mandatory="true" name="#2289 StoryboardElementStateCondition">
+														<feature mandatory="true" name="#2290 state|endTransition"/>
+														<feature mandatory="true" name="#2291 storyboardElementRef|LeadingVehicleStops"/>
+														<feature mandatory="true" name="#2292 storyboardElementType|action"/>
+													</and>
+												</and>
+											</and>
+										</and>
+									</and>
+								</and>
+								<and mandatory="true" name="#2293 Event">
+									<feature mandatory="true" name="#2294 name|FollowsRoute"/>
+									<feature mandatory="true" name="#2295 priority|overwrite"/>
+									<and mandatory="true" name="#2296 Action">
+										<feature mandatory="true" name="#2297 name|FollowsRoute"/>
+										<and mandatory="true" name="#2298 PrivateAction">
+											<and mandatory="true" name="#2299 RoutingAction">
+												<and mandatory="true" name="#2300 AssignRouteAction">
+													<and mandatory="true" name="#2301 Route">
+														<feature mandatory="true" name="#2302 closed|false"/>
+														<feature mandatory="true" name="#2303 name|StraightRoute"/>
+														<feature hidden="true" mandatory="true" name="#2304 ParameterDeclarations"/>
+														<and mandatory="true" name="#2305 Waypoint">
+															<feature mandatory="true" name="#2306 routeStrategy|fastest"/>
+															<and mandatory="true" name="#2307 Position">
+																<and mandatory="true" name="#2308 WorldPosition">
+																	<feature hidden="true" mandatory="true" name="#2309 h|0"/>
+																	<feature mandatory="true" name="#2310 x|-947.2986034154892"/>
+																	<feature mandatory="true" name="#2311 y|-189.95863676071167"/>
+																	<feature mandatory="true" name="#2312 z|101.75207446701825"/>
+																</and>
+															</and>
+														</and>
+														<and mandatory="true" name="#2313 Waypoint">
+															<feature mandatory="true" name="#2314 routeStrategy|fastest"/>
+															<and mandatory="true" name="#2315 Position">
+																<and mandatory="true" name="#2316 WorldPosition">
+																	<feature hidden="true" mandatory="true" name="#2317 h|0"/>
+																	<feature mandatory="true" name="#2318 x|-968.7547372281551"/>
+																	<feature mandatory="true" name="#2319 y|-221.76156145334244"/>
+																	<feature mandatory="true" name="#2320 z|101.76763876686164"/>
+																</and>
+															</and>
+														</and>
+													</and>
+												</and>
+											</and>
+										</and>
+									</and>
+									<and mandatory="true" name="#2321 StartTrigger">
+										<and mandatory="true" name="#2322 ConditionGroup">
+											<and mandatory="true" name="#2323 Condition">
+												<feature mandatory="true" name="#2324 conditionEdge|rising"/>
+												<feature hidden="true" mandatory="true" name="#2325 delay|0"/>
+												<feature mandatory="true" name="#2326 name|FollowsRouteStartCondition"/>
+												<and mandatory="true" name="#2327 ByEntityCondition">
+													<and mandatory="true" name="#2328 TriggeringEntities">
+														<feature mandatory="true" name="#2329 triggeringEntitiesRule|any"/>
+														<and mandatory="true" name="#2330 EntityRef">
+															<feature mandatory="true" name="#2331 entityRef|adversary"/>
+														</and>
+													</and>
+													<and mandatory="true" name="#2332 EntityCondition">
+														<and mandatory="true" name="#2333 TraveledDistanceCondition">
+															<feature mandatory="true" name="#2334 value|200"/>
+														</and>
+													</and>
+												</and>
+											</and>
+										</and>
+									</and>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2335 StartTrigger">
+							<and mandatory="true" name="#2336 ConditionGroup">
+								<and mandatory="true" name="#2337 Condition">
+									<feature mandatory="true" name="#2338 conditionEdge|rising"/>
+									<feature hidden="true" mandatory="true" name="#2339 delay|0"/>
+									<feature mandatory="true" name="#2340 name|OverallStartCondition"/>
+									<and mandatory="true" name="#2341 ByEntityCondition">
+										<and mandatory="true" name="#2342 TriggeringEntities">
+											<feature mandatory="true" name="#2343 triggeringEntitiesRule|any"/>
+											<and mandatory="true" name="#2344 EntityRef">
+												<feature mandatory="true" name="#2345 entityRef|hero"/>
+											</and>
+										</and>
+										<and mandatory="true" name="#2346 EntityCondition">
+											<and mandatory="true" name="#2347 ReachPositionCondition">
+												<feature mandatory="true" name="#2348 tolerance|2.0"/>
+												<and mandatory="true" name="#2349 Position">
+													<and mandatory="true" name="#2350 WorldPosition">
+														<feature hidden="true" mandatory="true" name="#2351 h|0"/>
+														<feature mandatory="true" name="#2352 x|-737.4384916126728"/>
+														<feature mandatory="true" name="#2353 y|88.3228699862957"/>
+														<feature mandatory="true" name="#2354 z|118.36918145092204"/>
+													</and>
+												</and>
+											</and>
+										</and>
+									</and>
+								</and>
+								<and mandatory="true" name="#2355 Condition">
+									<feature mandatory="true" name="#2356 conditionEdge|rising"/>
+									<feature hidden="true" mandatory="true" name="#2357 delay|0"/>
+									<feature mandatory="true" name="#2358 name|StartTime"/>
+									<and mandatory="true" name="#2359 ByValueCondition">
+										<and mandatory="true" name="#2360 SimulationTimeCondition">
+											<feature mandatory="true" name="#2361 rule|equalTo"/>
+											<feature hidden="true" mandatory="true" name="#2362 value|0"/>
+										</and>
+									</and>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2363 StopTrigger">
+							<and mandatory="true" name="#2364 ConditionGroup">
+								<and mandatory="true" name="#2365 Condition">
+									<feature mandatory="true" name="#2366 conditionEdge|rising"/>
+									<feature hidden="true" mandatory="true" name="#2367 delay|0"/>
+									<feature mandatory="true" name="#2368 name|EndCondition"/>
+									<and mandatory="true" name="#2369 ByEntityCondition">
+										<and mandatory="true" name="#2370 TriggeringEntities">
+											<feature mandatory="true" name="#2371 triggeringEntitiesRule|any"/>
+											<and mandatory="true" name="#2372 EntityRef">
+												<feature mandatory="true" name="#2373 entityRef|hero"/>
+											</and>
+										</and>
+										<and mandatory="true" name="#2374 EntityCondition">
+											<and mandatory="true" name="#2375 TraveledDistanceCondition">
+												<feature mandatory="true" name="#2376 value|350.0"/>
+											</and>
+										</and>
+									</and>
+								</and>
+							</and>
+						</and>
+					</and>
+				</and>
+				<and mandatory="true" name="#2377 StopTrigger">
+					<and mandatory="true" name="#2378 ConditionGroup">
+						<and mandatory="true" name="#2379 Condition">
+							<feature mandatory="true" name="#2380 conditionEdge|rising"/>
+							<feature hidden="true" mandatory="true" name="#2381 delay|0"/>
+							<feature mandatory="true" name="#2382 name|criteria_RunningStopTest"/>
+							<and mandatory="true" name="#2383 ByValueCondition">
+								<and mandatory="true" name="#2384 ParameterCondition">
+									<feature hidden="true" mandatory="true" name="#2385 parameterRef|"/>
+									<feature mandatory="true" name="#2386 rule|lessThan"/>
+									<feature hidden="true" mandatory="true" name="#2387 value|"/>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2388 Condition">
+							<feature mandatory="true" name="#2389 conditionEdge|rising"/>
+							<feature hidden="true" mandatory="true" name="#2390 delay|0"/>
+							<feature mandatory="true" name="#2391 name|criteria_RunningRedLightTest"/>
+							<and mandatory="true" name="#2392 ByValueCondition">
+								<and mandatory="true" name="#2393 ParameterCondition">
+									<feature hidden="true" mandatory="true" name="#2394 parameterRef|"/>
+									<feature mandatory="true" name="#2395 rule|lessThan"/>
+									<feature hidden="true" mandatory="true" name="#2396 value|"/>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2397 Condition">
+							<feature mandatory="true" name="#2398 conditionEdge|rising"/>
+							<feature hidden="true" mandatory="true" name="#2399 delay|0"/>
+							<feature mandatory="true" name="#2400 name|criteria_WrongLaneTest"/>
+							<and mandatory="true" name="#2401 ByValueCondition">
+								<and mandatory="true" name="#2402 ParameterCondition">
+									<feature hidden="true" mandatory="true" name="#2403 parameterRef|"/>
+									<feature mandatory="true" name="#2404 rule|lessThan"/>
+									<feature hidden="true" mandatory="true" name="#2405 value|"/>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2406 Condition">
+							<feature mandatory="true" name="#2407 conditionEdge|rising"/>
+							<feature hidden="true" mandatory="true" name="#2408 delay|0"/>
+							<feature mandatory="true" name="#2409 name|criteria_OnSidewalkTest"/>
+							<and mandatory="true" name="#2410 ByValueCondition">
+								<and mandatory="true" name="#2411 ParameterCondition">
+									<feature hidden="true" mandatory="true" name="#2412 parameterRef|"/>
+									<feature mandatory="true" name="#2413 rule|lessThan"/>
+									<feature hidden="true" mandatory="true" name="#2414 value|"/>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2415 Condition">
+							<feature mandatory="true" name="#2416 conditionEdge|rising"/>
+							<feature hidden="true" mandatory="true" name="#2417 delay|0"/>
+							<feature mandatory="true" name="#2418 name|criteria_KeepLaneTest"/>
+							<and mandatory="true" name="#2419 ByValueCondition">
+								<and mandatory="true" name="#2420 ParameterCondition">
+									<feature hidden="true" mandatory="true" name="#2421 parameterRef|"/>
+									<feature mandatory="true" name="#2422 rule|lessThan"/>
+									<feature hidden="true" mandatory="true" name="#2423 value|"/>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2424 Condition">
+							<feature mandatory="true" name="#2425 conditionEdge|rising"/>
+							<feature hidden="true" mandatory="true" name="#2426 delay|0"/>
+							<feature mandatory="true" name="#2427 name|criteria_CollisionTest"/>
+							<and mandatory="true" name="#2428 ByValueCondition">
+								<and mandatory="true" name="#2429 ParameterCondition">
+									<feature hidden="true" mandatory="true" name="#2430 parameterRef|"/>
+									<feature mandatory="true" name="#2431 rule|lessThan"/>
+									<feature hidden="true" mandatory="true" name="#2432 value|"/>
+								</and>
+							</and>
+						</and>
+						<and mandatory="true" name="#2433 Condition">
+							<feature mandatory="true" name="#2434 conditionEdge|rising"/>
+							<feature hidden="true" mandatory="true" name="#2435 delay|0"/>
+							<feature mandatory="true" name="#2436 name|criteria_DrivenDistanceTest"/>
+							<and mandatory="true" name="#2437 ByValueCondition">
+								<and mandatory="true" name="#2438 ParameterCondition">
+									<feature mandatory="true" name="#2439 parameterRef|distance_success"/>
+									<feature mandatory="true" name="#2440 rule|lessThan"/>
+									<feature mandatory="true" name="#2441 value|100"/>
+								</and>
+							</and>
+						</and>
+					</and>
+				</and>
+			</and>
+		</and>
+	</struct>
+	<constraints>
+		<rule>
+			<imp>
+				<var>#2055 name|hero</var>
+				<var>#2156 entityRef|hero</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2156 entityRef|hero</var>
+				<var>#2055 name|hero</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2055 name|hero</var>
+				<var>#2237 entityRef|hero</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2237 entityRef|hero</var>
+				<var>#2055 name|hero</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2055 name|hero</var>
+				<var>#2345 entityRef|hero</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2345 entityRef|hero</var>
+				<var>#2055 name|hero</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2055 name|hero</var>
+				<var>#2373 entityRef|hero</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2373 entityRef|hero</var>
+				<var>#2055 name|hero</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2094 name|adversary</var>
+				<var>#2194 entityRef|adversary</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2194 entityRef|adversary</var>
+				<var>#2094 name|adversary</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2094 name|adversary</var>
+				<var>#2213 entityRef|adversary</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2213 entityRef|adversary</var>
+				<var>#2094 name|adversary</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2094 name|adversary</var>
+				<var>#2240 entityRef|adversary</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2240 entityRef|adversary</var>
+				<var>#2094 name|adversary</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2094 name|adversary</var>
+				<var>#2331 entityRef|adversary</var>
+			</imp>
+		</rule>
+		<rule>
+			<imp>
+				<var>#2331 entityRef|adversary</var>
+				<var>#2094 name|adversary</var>
+			</imp>
+		</rule>
+	</constraints>
+</featureModel>

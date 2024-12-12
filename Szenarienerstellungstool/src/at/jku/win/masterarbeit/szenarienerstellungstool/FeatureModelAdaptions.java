@@ -5,6 +5,9 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
+import java.util.Random;
+import java.util.logging.Logger;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import de.ovgu.featureide.fm.core.base.IFeature;
@@ -16,6 +19,8 @@ import de.ovgu.featureide.fm.core.io.xml.XmlFeatureModelFormat;
 import de.ovgu.featureide.fm.core.functional.Functional;
 import java.io.File;
 import java.io.IOException;
+
+import de.ovgu.featureide.fm.core.FeatureModelAnalyzer;
 import de.ovgu.featureide.fm.core.RenamingsManager;
 import de.ovgu.featureide.fm.core.analysis.cnf.CNF;
 import de.ovgu.featureide.fm.core.analysis.cnf.LiteralSet;
@@ -46,7 +51,8 @@ public class FeatureModelAdaptions {
 	public static ArrayList<Object> manuallySelectedFeatures = new ArrayList<Object>();
 	public static ArrayList<Object> automaticallySelectedFeatures = new ArrayList<Object>();
 	public static ArrayList<Object> automaticallyDeselectedFeatures = new ArrayList<Object>();
-	
+	public static List<String> selectedFeatures = new ArrayList<String>();
+	private static final Logger logger = Logger.getLogger(FeatureModelAdaptions.class.getName());
 	public static ArrayList<MotherfeatureFeature> fillOpenScenario_required(String source) {
 		ArrayList<MotherfeatureFeature> openScenario_required = new ArrayList<MotherfeatureFeature>();
 		try {
@@ -65,7 +71,7 @@ public class FeatureModelAdaptions {
 		        		openScenario_required.add(new MotherfeatureFeature(element.getParentNode().getAttributes().getNamedItem("name").getNodeValue(),element.getAttribute("name")));
 		        	}
 		        	catch (NullPointerException e) {
-		        		System.out.println("!! " + element.getAttribute("name") + " " + true + temp +" "+ counter);
+		        		logger.severe("!! " + element.getAttribute("name") + " " + true + temp +" "+ counter);
 		            }
 		        	counter++;
 		        }
@@ -81,19 +87,15 @@ public class FeatureModelAdaptions {
 		IFeature f=factory.createFeature(fm, name);
 		IFeatureStructure fStructure=f.getStructure();
 		motherStructure.addChild(fStructure);
-		System.out.println("Added "+f.getName()+"with motherFeature "+motherStructure.getFeature().getName());
 		return fm;
 	}
 	public static FeatureModel adaptFeatureModelWeather_add(FeatureModel fm) {
 		Collection<IFeature> features = fm.getFeatures();
 		List<IFeatureStructure> weatherfs;
-
-		
 		IFeature f;
 		IFeatureStructure fs;
 		Object[] test=features.toArray();
-
-		for (int i=0; i<fm.getFeatures().size()-1; i++) {
+		for (int i=0; i<fm.getFeatures().size(); i++) {
 			if (test[i]!=null &&test[i].toString().contains("Weather")) {
 				f=fm.getFeature(test[i].toString());
 				fs=f.getStructure();
@@ -105,29 +107,55 @@ public class FeatureModelAdaptions {
                             String attributeName = parts[0];
                             String[] parts2 = attributeName.split("\\s", 2);
 							if (k.getFeature().getName().contains("precipitationType")) {
-								fm=addFeature(fm, k, parts2[0]+"_1 "+parts2[1]+"|rain");
-								fm=addFeature(fm, k, parts2[0]+"_2 "+parts2[1]+"|snow");
-								fm=addFeature(fm, k, parts2[0]+"_3 "+parts2[1]+"|hail");
-								k.setAlternative();
+								if (!k.getFeature().getName().contains("rain")) {
+									fm=addFeature(fm, k, parts2[0]+"_1 "+parts2[1]+"|rain");
+									fm=addFeature(fm, k, parts2[0]+"_2 "+parts2[1]+"|"+parts[1]);
+									k.getFeature().setName(attributeName+"|alt");
+									k.setAlternative();
+								}
+								//fm=addFeature(fm, k, parts2[0]+"_1 "+parts2[1]+"|rain");
+								//fm=addFeature(fm, k, parts2[0]+"_2 "+parts2[1]+"|snow");
+								//fm=addFeature(fm, k, parts2[0]+"_3 "+parts2[1]+"|hail");
+								//k.setAlternative();
 							}
 							else if (k.getFeature().getName().contains("intensity")) {
 								String attributeName_old = parts[1];
 								fm=addFeature(fm, k, parts2[0]+"_1 "+parts2[1]+"|"+attributeName_old);
 								fm=addFeature(fm, k, parts2[0]+"_2 "+parts2[1]+"|1");
 								fm=addFeature(fm, k, parts2[0]+"_3 "+parts2[1]+"|0");
+								Random random = new Random();
+						        double randomNumber = random.nextDouble();
+						        fm=addFeature(fm, k, parts2[0]+"_4 "+parts2[1]+"|"+String.format(Locale.US, "%.2f", randomNumber));
+						        randomNumber = random.nextDouble();
+						        fm=addFeature(fm, k, parts2[0]+"_5 "+parts2[1]+"|"+String.format(Locale.US, "%.2f", randomNumber));
 								k.setAlternative();
-								
+								k.getFeature().setName(attributeName+"|alt");
 							}
-							k.getFeature().setName(attributeName+"|alt");
 						}
-						
-						
+					}
+					else if (j.getFeature().getName().contains("Fog")) {
+						for(IFeatureStructure k:j.getChildren()) {
+							String[] parts = k.getFeature().getName().split("\\|");
+	                        String attributeName = parts[0];
+	                        String[] parts2 = attributeName.split("\\s", 2);
+							if (k.getFeature().getName().contains("visualRange")) {
+								String attributeName_old = parts[1];
+								fm=addFeature(fm, k, parts2[0]+"_1 "+parts2[1]+"|"+attributeName_old);
+								fm=addFeature(fm, k, parts2[0]+"_2 "+parts2[1]+"|500000.0");
+								fm=addFeature(fm, k, parts2[0]+"_3 "+parts2[1]+"|1000.0");
+								Random random = new Random();
+								int randomNumber = random.nextInt(1000000 - 1000 + 1) + 1000;
+						        fm=addFeature(fm, k, parts2[0]+"_4 "+parts2[1]+"|"+randomNumber);
+						        randomNumber = random.nextInt(1000000 - 1000 + 1) + 1000;
+						        fm=addFeature(fm, k, parts2[0]+"_5 "+parts2[1]+"|"+randomNumber);
+								k.setAlternative();
+								k.getFeature().setName(attributeName+"|alt");
+							}
+						}
 					}
 				}
 			}
-			
 		}
-		
 		return fm;
 	}
 	public static FeatureModel adaptFeatureModelPosition_add(FeatureModel fm) {
@@ -160,14 +188,25 @@ public class FeatureModelAdaptions {
             			fullName = childfeature.getFeature().getName();
             			partName = fullName.split(" ");
             			partTwoName = partName[1].split("\\|");
-            			parsedNumber2 = Double.parseDouble(partTwoName[1])+1;
-            			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_1 "+partTwoName[0]+"|"+parsedNumber2);
-            			IFeatureStructure newStruct = newf2_1.getStructure();
-            			if (childfeature.isMandatory()) {
-            				newStruct.setMandatory(true);
+            			if (!partName[1].contains("z")) {
+            				double randomNumber = 0.5 + Math.random();
+            				parsedNumber2 = Double.parseDouble(partTwoName[1])+randomNumber;
+                			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_1 "+partTwoName[0]+"|"+parsedNumber2);
+                			IFeatureStructure newStruct = newf2_1.getStructure();
+                			if (childfeature.isMandatory()) {
+                				newStruct.setMandatory(true);
+                			}
+                			fStructure.addChild(newStruct);
             			}
-            			fStructure.addChild(newStruct);
-            			
+            			else {
+            				parsedNumber2 = Double.parseDouble(partTwoName[1]);
+                			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_1 "+partTwoName[0]+"|"+parsedNumber2);
+                			IFeatureStructure newStruct = newf2_1.getStructure();
+                			if (childfeature.isMandatory()) {
+                				newStruct.setMandatory(true);
+                			}
+                			fStructure.addChild(newStruct);
+            			}
             		}
          
             		fullName = j.getChildren().get(0).getFeature().getName();
@@ -181,13 +220,25 @@ public class FeatureModelAdaptions {
             			fullName = childfeature.getFeature().getName();
             			partName = fullName.split(" ");
             			partTwoName = partName[1].split("\\|");
-            			parsedNumber2 = Double.parseDouble(partTwoName[1])-1;
-            			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_2 "+partTwoName[0]+"|"+parsedNumber2);
-            			IFeatureStructure newStruct2 = newf2_1.getStructure();
-            			if (childfeature.isMandatory()) {
-            				newStruct2.setMandatory(true);
+            			if (!partName[1].contains("z")) {
+            				double randomNumber = 0.5 + Math.random();
+            				parsedNumber2 = Double.parseDouble(partTwoName[1])-randomNumber;
+                			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_2 "+partTwoName[0]+"|"+parsedNumber2);
+                			IFeatureStructure newStruct2 = newf2_1.getStructure();
+                			if (childfeature.isMandatory()) {
+                				newStruct2.setMandatory(true);
+                			}
+                			fStructure2.addChild(newStruct2);
             			}
-            			fStructure2.addChild(newStruct2);
+            			else {
+            				parsedNumber2 = Double.parseDouble(partTwoName[1]);
+                			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_2 "+partTwoName[0]+"|"+parsedNumber2);
+                			IFeatureStructure newStruct2 = newf2_1.getStructure();
+                			if (childfeature.isMandatory()) {
+                				newStruct2.setMandatory(true);
+                			}
+                			fStructure2.addChild(newStruct2);
+            			}
             		}
             		j.addChild(fStructure2);
                     addedFeatureNames.add(fName1);
@@ -327,20 +378,22 @@ public class FeatureModelAdaptions {
 	            		String[] partName=null;
 	            		String[] partTwoName=null;
 	            		double parsedNumber2=0;
+	            		
 	            		for (IFeatureStructure childfeature : j.getChildren().get(0).getFeature().getStructure().getChildren()) {
-	            			fullName = childfeature.getFeature().getName();
-	            			partName = fullName.split(" ");
-	            			partTwoName = partName[1].split("\\|");
-	            			parsedNumber2 = Double.parseDouble(partTwoName[1])+1;
-	            			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_1 "+partTwoName[0]+"|"+parsedNumber2);
-	            			IFeatureStructure newStruct = newf2_1.getStructure();
-	            			if (childfeature.isMandatory()) {
-	            				newStruct.setMandatory(true);
+	            			if (childfeature.getFeature().getName().contains("maxAcceleration")) {
+	            				fullName = childfeature.getFeature().getName();
+		            			partName = fullName.split(" ");
+		            			partTwoName = partName[1].split("\\|");
+		            			String[] parts2 = attributeName.split("\\s", 2);
+		            			parsedNumber2 = Double.parseDouble(partTwoName[1])+1;
+		            			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_1 "+partTwoName[0]+"|"+parsedNumber2);
+		            			IFeatureStructure newStruct = newf2_1.getStructure();
+		            			if (childfeature.isMandatory()) {
+		            				newStruct.setMandatory(true);
+		            			}
+		            			fStructure.addChild(newStruct);	
 	            			}
-	            			fStructure.addChild(newStruct);
-	            			
 	            		}
-	         
 	            		fullName = j.getChildren().get(0).getFeature().getName();
 	        			partName = fullName.split(" ");
 	            		j.getChildren().get(0).getFeature().setName(partName[0]+"_0 "+partName[1]);
@@ -349,16 +402,18 @@ public class FeatureModelAdaptions {
 	            		IFeatureStructure fStructure2=newf2.getStructure();
 	            		
 	            		for (IFeatureStructure childfeature : j.getChildren().get(0).getFeature().getStructure().getChildren()) {
-	            			fullName = childfeature.getFeature().getName();
-	            			partName = fullName.split(" ");
-	            			partTwoName = partName[1].split("\\|");
-	            			parsedNumber2 = Double.parseDouble(partTwoName[1])-1;
-	            			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_2 "+partTwoName[0]+"|"+parsedNumber2);
-	            			IFeatureStructure newStruct2 = newf2_1.getStructure();
-	            			if (childfeature.isMandatory()) {
-	            				newStruct2.setMandatory(true);
+	            			if (childfeature.getFeature().getName().contains("maxAcceleration")) {
+		            			fullName = childfeature.getFeature().getName();
+		            			partName = fullName.split(" ");
+		            			partTwoName = partName[1].split("\\|");
+		            			parsedNumber2 = Double.parseDouble(partTwoName[1])-1;
+		            			IFeature newf2_1=factory.createFeature(fm, partName[0]+"_2 "+partTwoName[0]+"|"+parsedNumber2);
+		            			IFeatureStructure newStruct2 = newf2_1.getStructure();
+		            			if (childfeature.isMandatory()) {
+		            				newStruct2.setMandatory(true);
+		            			}
+		            			fStructure2.addChild(newStruct2);
 	            			}
-	            			fStructure2.addChild(newStruct2);
 	            		}
 	            		j.addChild(fStructure2);
 	                    addedFeatureNames.add(fName1);
@@ -381,6 +436,83 @@ public class FeatureModelAdaptions {
 				}
 			}
 			
+		}
+		return fm;
+	}
+	public static FeatureModel adaptFeatureModelAcceleration_add2(FeatureModel fm) {
+		Collection<IFeature> features = fm.getFeatures();
+		List<IFeatureStructure> weatherfs;
+		IFeature f;
+		IFeatureStructure fs;
+		Object[] test=features.toArray();
+		for (int i=0; i<fm.getFeatures().size()-1; i++) {
+			if (test[i]!=null &&test[i].toString().contains("Vehicle")) {
+				f=fm.getFeature(test[i].toString());
+				fs=f.getStructure();
+				weatherfs=fs.getChildren();
+				for(IFeatureStructure j:weatherfs) {
+					if (j.getFeature().getName().contains("Performance")) {	
+						for(IFeatureStructure k:j.getChildren()) {
+							String[] parts = k.getFeature().getName().split("\\|");
+                            String attributeName = parts[0];
+                            String[] parts2 = attributeName.split("\\s", 2);
+							if (k.getFeature().getName().contains("maxAcceleration")) {
+								if (!parts[1].equals("0")) {
+									Random random = new Random();
+							        //double randomNumber = random.nextDouble();
+							        int randomValue = 100 + random.nextInt(301);
+							        fm=addFeature(fm, k, parts2[0]+"_1 "+parts2[1]+"|"+parts[1]);
+									fm=addFeature(fm, k, parts2[0]+"_2 "+parts2[1]+"|"+randomValue);
+									randomValue = 100 + random.nextInt(301);
+									fm=addFeature(fm, k, parts2[0]+"_3 "+parts2[1]+"|"+randomValue);
+									k.getFeature().setName(attributeName+"|alt");
+									k.setAlternative();
+								}
+								//fm=addFeature(fm, k, parts2[0]+"_1 "+parts2[1]+"|rain");
+								//fm=addFeature(fm, k, parts2[0]+"_2 "+parts2[1]+"|snow");
+								//fm=addFeature(fm, k, parts2[0]+"_3 "+parts2[1]+"|hail");
+								//k.setAlternative();
+							}
+						}
+					}
+				}
+			}
+		}
+		return fm;
+	}
+	public static FeatureModel adaptFeatureModelSpeed_add(FeatureModel fm) {
+		Collection<IFeature> features = fm.getFeatures();
+		List<IFeatureStructure> weatherfs;
+		IFeature f;
+		IFeatureStructure fs;
+		Object[] test=features.toArray();
+		for (int i=0; i<fm.getFeatures().size()-1; i++) {
+			if (test[i]!=null &&test[i].toString().contains("Vehicle")) {
+				f=fm.getFeature(test[i].toString());
+				fs=f.getStructure();
+				weatherfs=fs.getChildren();
+				for(IFeatureStructure j:weatherfs) {
+					if (j.getFeature().getName().contains("Performance")) {	
+						for(IFeatureStructure k:j.getChildren()) {
+							String[] parts = k.getFeature().getName().split("\\|");
+                            String attributeName = parts[0];
+                            String[] parts2 = attributeName.split("\\s", 2);
+							if (k.getFeature().getName().contains("maxSpeed")) {
+								if (!parts[1].equals("0")) {
+									Random random = new Random();
+									int randomValue = 30 + random.nextInt(121);
+							        fm=addFeature(fm, k, parts2[0]+"_1 "+parts2[1]+"|"+parts[1]);
+									fm=addFeature(fm, k, parts2[0]+"_2 "+parts2[1]+"|"+randomValue);
+									randomValue = 30 + random.nextInt(121);
+									fm=addFeature(fm, k, parts2[0]+"_3 "+parts2[1]+"|"+randomValue);
+									k.getFeature().setName(attributeName+"|alt");
+									k.setAlternative();
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 		return fm;
 	}
@@ -411,7 +543,6 @@ public class FeatureModelAdaptions {
                     }
                 }
                 for (IFeatureStructure newScenarioObject : newScenarioObjects) {
-                    System.out.println("Adding new ScenarioObject: " + newScenarioObject.getFeature().getName());
                     fs.addChild(newScenarioObject);
                     addFeatures.add(newScenarioObject.getFeature());
                 }
@@ -436,19 +567,13 @@ public class FeatureModelAdaptions {
                     }
                 }
                 for (IFeatureStructure newScenarioObject : newScenarioObjects) {
-                    System.out.println("Adding new Private: " + newScenarioObject.getFeature().getName());
                     fs.addChild(newScenarioObject);
                     addFeatures.add(newScenarioObject.getFeature());
-                    
                 }
-
-                System.out.println("added FS Alternative: "+fs.getFeature().getName());
                 fs.setOr();
-                
             }
         }
         for (IFeature feature : addFeatures) {
-        	System.out.println("Added Feature: "+feature.getName());
             fm.addFeature(feature);
         }
         addFeatures=new ArrayList<>();
@@ -470,9 +595,7 @@ public class FeatureModelAdaptions {
                 for (IFeatureStructure j : entityFs) {
                     if (j.getFeature().getName().contains(" name")) {
                     	constraintName1 = j.getFeature().getName();
-                    	System.out.println("constraintName1: "+constraintName1);
                     	for (int x = 0; x < fm.getFeatures().size(); x++) {
-                    		//System.out.println("JFTest: "+test[x].toString());
                     		if(test[x]!= null && test[x].toString().contains("entityRef")) {
                     			int index = test[x].toString().lastIndexOf("|");
                     			int index2 = constraintName1.lastIndexOf("|");
@@ -481,18 +604,17 @@ public class FeatureModelAdaptions {
                                     Node constraintNode = new Implies(new Literal(constraintName1), new Literal(test[x].toString()));
                                     Constraint iC= factory.createConstraint(fm, constraintNode);
                                     fm.addConstraint(iC);
-                                    System.out.println("Added Constraint: "+constraintName1+" -> "+test[x].toString());
+                                    logger.info("Added Constraint: "+constraintName1+" -> "+test[x].toString());
                                     constraintNode = new Implies(new Literal(test[x].toString()), new Literal(constraintName1));
                                     iC= factory.createConstraint(fm, constraintNode);
                                     fm.addConstraint(iC);
-                                    System.out.println("Added Constraint: "+test[x].toString()+" -> "+constraintName1);
+                                    logger.info("Added Constraint: "+test[x].toString()+" -> "+constraintName1);
                                     
                     			}
                     		}
                     	}
                     }
                 }
-                
             }
 		}
 		
@@ -503,7 +625,6 @@ public class FeatureModelAdaptions {
         IFeature originalFeature = original.getFeature();
         String originalName = originalFeature.getName();
         if ((originalName.contains("name")||originalName.contains("entityRef"))&&(original.getParent().getFeature().getName().contains("ScenarioObject") || original.getParent().getFeature().getName().endsWith("Private"))) {
-        	System.out.println("original Name: "+originalName);
         	originalName = originalName+"_add";
         }
         String newName = generateNewAltFeatureName(originalName,x);
@@ -579,10 +700,14 @@ public class FeatureModelAdaptions {
 	                            String attributeName = parts[0];
 	                            String[] parts2 = attributeName.split("\\s", 2);
 								if (k.getFeature().getName().contains("value")) {
+									Random random = new Random();
+							        double randomValue = 0.1 + (1.0 - 0.1) * random.nextDouble();
 									fm=addFeature(fm, k, parts2[0]+"_1 "+parts2[1]+"|0.5");
 									fm=addFeature(fm, k, parts2[0]+"_2 "+parts2[1]+"|0.1");
-									fm=addFeature(fm, k, parts2[0]+"_3 "+parts2[1]+"|0.9");
+									fm=addFeature(fm, k, parts2[0]+"_3 "+parts2[1]+"|1");
+									fm=addFeature(fm, k, parts2[0]+"_4 "+parts2[1]+"|"+randomValue);
 									k.setAlternative();
+									k.getFeature().setName(attributeName+"|alt");
 								}
 							}
 						}
@@ -591,9 +716,7 @@ public class FeatureModelAdaptions {
 					}
 				}
 			}
-			
 		}
-		
 		return fm;
 	}
 	public static FeatureModel adaptFeaturechangeSettings(FeatureModel fm) {
@@ -637,44 +760,7 @@ public class FeatureModelAdaptions {
 		
 		return fm;
 	}
-	public static FeatureModel adaptFeatureModelAcceleration(FeatureModel fm) {
-		Collection<IFeature> features = fm.getFeatures();
-		List<IFeatureStructure> weatherfs;		
-		IFeature f;
-		IFeatureStructure fs;
-		Object[] test=features.toArray();
-		for (int i=0; i<fm.getFeatures().size()-1; i++) {
-			if (test[i]!=null &&test[i].toString().contains("Vehicle")) {
-				f=fm.getFeature(test[i].toString());
-				fs=f.getStructure();
-				weatherfs=fs.getChildren();
-				for(IFeatureStructure j:weatherfs) {
-					if (j.getFeature().getName().contains("Performance")) {
-						
-						for(IFeatureStructure k:j.getChildren()) {
-							String[] parts = k.getFeature().getName().split("\\|");
-                            String attributeName = parts[0];
-                            
-                            String attributeValue = parts.length > 1 ? parts[1] : "";
-							
-							if (k.getFeature().getName().contains("Acceleration")) {
-								int attributeInt;
-								attributeInt=Integer.parseInt(attributeValue)*2;
-								
-								attributeValue=""+attributeInt;
-								
-							}
-							k.getFeature().setName(attributeName+"|"+attributeValue);
-						}
-						
-					}
-				}
-			}
-		}
-		
-		return fm;
-	}
-	static FeatureModel adaptFeatureModelSwitchTrueFalse(FeatureModel fm) {
+	static FeatureModel adaptFeatureModelSwitchTrueFalse_add(FeatureModel fm) {
 		Collection<IFeature> features = fm.getFeatures();
 		IFeature f;
 		IFeatureStructure fs;
@@ -703,67 +789,76 @@ public class FeatureModelAdaptions {
 	public static void createRandomConfig(FeatureModel fm, String file, int maxFeatureModels) {
 		FeatureModelFormula formula = new FeatureModelFormula(fm);
 		CNF cnf = formula.getCNF();
-	    // Erstelle einen Random Configuration Generator
+		logger.info("Used Random");
 	    RandomConfigurationGenerator generator = new RandomConfigurationGenerator(cnf, maxFeatureModels);
 	    IMonitor<List<LiteralSet>> monitor = new ConsoleMonitor<>();
 	    List<LiteralSet> literalSets = null;
 	    try {
 	        literalSets = generator.execute(monitor);
 	    } catch (Exception e) {
-	        System.out.println("Catch-Block");
 	        e.printStackTrace();
 	    }
 
 	    int counter = 0;
 	    for (LiteralSet literalSet : literalSets) {
 	        Configuration configuration = new Configuration(formula);
+	        selectedFeatures = new ArrayList<>();
 	        for (int literal : literalSet.getLiterals()) {
 	            int variableIndex = Math.abs(literal) - 1;
 	            Collection<SelectableFeature> sfs = configuration.getFeatures();
 		        ArrayList<SelectableFeature> sfs_arraylist = new ArrayList<SelectableFeature>(sfs);
 		        SelectableFeature sf=sfs_arraylist.get(variableIndex);
+		        
 	            if (sf != null && !sf.getName().contains("|alt")) {
 	                if (literal > 0) {
 	                    configuration.setManual(sf, Selection.SELECTED);
-
+	                    if (!sf.getFeature().getStructure().isMandatorySet()) {
+	                    	selectedFeatures.add(sf.getName());
+	                    }
+	                    else {
+	                    	
+	                    }
 	                } else {
 	                    configuration.setManual(sf, Selection.UNSELECTED);
-	                    System.out.println("unselected: "+sf.getName());
 	                }
 	            }
 	        }
-	        System.out.println("Configuration:");
-	        System.out.println(configuration);
+	        logger.info("Konfiguration " + counter + ": ");
+	        logger.info("Ausgewählte Features: " + selectedFeatures);
 	        IFeatureModel newFM = FeatureModelAdaptions.pruneFeatureModelByConfiguration(configuration);
 	        FeatureModelAdaptions.saveXMLScenarioI(file+"_"+counter+"_Random.xosc", newFM);
 	        counter++;
 	    }
 	}
-	public static void createTWiseConfig(FeatureModel fm, String file, int tint, int maxFeatureModels) {
-		XmlFeatureModelFormat fmXmlFormat = new XmlFeatureModelFormat();
-		System.out.println(fmXmlFormat.getName() + "." + fmXmlFormat.getSuffix());
-		//FeatureModelAdaptions.saveFeatureModel(fm, "result" + File.separator + "model_" + fmXmlFormat.getName() + "." + fmXmlFormat.getSuffix(), fmXmlFormat);
+	public static boolean checkValidity(FeatureModel fm) {
 		FeatureModelFormula formula = new FeatureModelFormula(fm);
-		CNF cnf = formula.getCNF();
-		/*
 		if (fm != null) {
 			formula = new FeatureModelFormula(fm);
 			final FeatureModelAnalyzer analyzer = formula.getAnalyzer();
 			analyzer.analyzeFeatureModel(null);
-			System.out.println("Feature model is " + (analyzer.isValid(null) ? "not " : "") + "void");
-			System.out.println("Dead features: " + analyzer.getDeadFeatures(null));
-			
-			
+			if(analyzer.isValid(null)) {
+				logger.info("Feature model is valid");
+                return true;
+			}
+			else {
+				logger.info("Feature model is not valid");
+                return false;
+			}
 		}
-		*/
-		System.out.println("Used T-Value: "+tint);
+		return false;
+		
+	}
+	public static void createTWiseConfig(FeatureModel fm, String file, int tint, int maxFeatureModels) {
+		FeatureModelFormula formula = new FeatureModelFormula(fm);
+		CNF cnf = formula.getCNF();
+		logger.info("Used T-Value: "+tint);
 		ITWiseConfigurationGenerator generator = new TWiseConfigurationGenerator(cnf, tint, maxFeatureModels);
 		IMonitor<List<LiteralSet>> monitor = new ConsoleMonitor<>();
         List<LiteralSet> literalSets = null;
+        List<String> selectedFeatures = new ArrayList<>();
 		try {
 			literalSets = generator.execute(monitor);
 		} catch (Exception e) {
-			System.out.println("Catch-Block");
 			e.printStackTrace();
 		}
 		int counter = 0;
@@ -777,13 +872,16 @@ public class FeatureModelAdaptions {
 		        if (sf!= null && sf.getName()!=null&& !sf.getName().contains("|alt")) {
 		        	if (literal > 0) {
 			            configuration.setManual(sf, Selection.SELECTED);
+			            if (!sf.getFeature().getStructure().isMandatorySet()) {
+	                    	selectedFeatures.add(sf.getName());
+	                    }
 			        } else {
 			            configuration.setManual(sf, Selection.UNSELECTED);
 			        }
 		        }
 		    }
-		    System.out.println("Configuration:");
-		    System.out.println(configuration);
+		    logger.info("Konfiguration " + counter + ": ");
+	        logger.info("Ausgewählte Features: " + selectedFeatures);
 		    IFeatureModel newFM = FeatureModelAdaptions.pruneFeatureModelByConfiguration(configuration);
 		    FeatureModelAdaptions.saveXMLScenarioI(file+"_"+counter+"_Twise.xosc", newFM);
 		    counter++;
@@ -792,48 +890,19 @@ public class FeatureModelAdaptions {
 	public static FeatureModel setFmToMandatory (FeatureModel fm){
 		FeatureModel fmtemp=fm.clone();
         for (IFeature feature : fmtemp.getFeatures()) {
-        	//if (!feature.getStructure().isRoot() && !feature.getStructure().getParent().isAlternative())  {
+        	if(!feature.getStructure().isRoot()) {
+        		if(feature.getStructure().getParent().isAlternative()||feature.getStructure().getParent().isOr()) {
+        			feature.getStructure().setMandatory(false);
+        		}
+        		else {
+                    feature.getStructure().setMandatory(true);
+                }
+        	}
+        	else {
         		feature.getStructure().setMandatory(true);
-        		System.out.println(feature.getName()+" is mandatory");
-        	//}
-            
+        	}
         }
         return fmtemp;
-	}
-
-	public static void saveXMLScenarios(String filePath, FeatureModel fm) {
-		StringBuilder xmlBuilder = new StringBuilder();
-		List<IFeatureStructure> list=new ArrayList<IFeatureStructure>();
-        list.add(fm.getStructure().getRoot());
-		xmlBuilder.append("<?xml version=\"1.0\"?>\n");
-		xmlBuilder = OpenScenarioGenerator.generateOpenScenarioFromFmRecursively(fm, list, xmlBuilder, 0);
-		String xmlString=xmlBuilder.toString();
-		
-		try {
-            Files.write(Paths.get(filePath), xmlString.getBytes());
-            //System.out.println("Scenario XML erfolgreich gespeichert in: "+filePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-	}
-	
-	public static void saveXMLScenario(String filePath, FeatureModel fm) {
-		StringBuilder xmlBuilder = new StringBuilder();
-		List<IFeatureStructure> list=new ArrayList<IFeatureStructure>();
-        list.add(fm.getStructure().getRoot());
-		xmlBuilder.append("<?xml version=\"1.0\"?>\n");
-		//for (int i = 0; i<fm.getFeatureOrderList().size(); i++) {
-			//System.out.println("fm.getFeatureOrderList().get(i): "+fm.getFeatureOrderList().get(i));
-		//}
-		xmlBuilder = OpenScenarioGenerator.generateOpenScenarioFromFmRecursively(fm, list, xmlBuilder, 0);
-		String xmlString=xmlBuilder.toString();
-		//System.out.println("fullXML: "+xmlString);
-		try {
-            Files.write(Paths.get(filePath), xmlString.getBytes());
-            //System.out.println("Scenario XML erfolgreich gespeichert in: "+filePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 	}
 	public static void saveXMLScenarioI(String filePath, IFeatureModel fm) {
 		StringBuilder xmlBuilder = new StringBuilder();
@@ -913,29 +982,9 @@ public class FeatureModelAdaptions {
 			}
 		}
 	}
-	public static void modifyConfiguration(String feature, final Selection selection) {
-		for (SelectableFeature selectableFeature : configuration.getFeatures()) {
-			if (selectableFeature.getName().equals(feature)) {
-				modifyConfiguration(selectableFeature, selection);
-			}
-		}
-	}
-	private static void modifyConfiguration(SelectableFeature selectedValue, final Selection selection) {
-		if (selectedValue instanceof SelectableFeature) {
-			try {
-				configuration.setManual(selectedValue, selection);
-			} catch (Exception e) {
-				System.err.println(e.getMessage());
-				System.err.println();
-				System.err.flush();
-				return;
-			}
-			updateLists();
-		}
-	}
 	public static IFeatureModel pruneFeatureModelByConfiguration(Configuration configuration) {
 	    IFeatureModel originalFeatureModel = configuration.getFeatureModel();
-	    IFeatureModel prunedFeatureModel = originalFeatureModel.clone(); // clone() für Kopie
+	    IFeatureModel prunedFeatureModel = originalFeatureModel.clone();
 	    ArrayList<IFeature> deleteFeatures = new ArrayList<>();
 	    Collection<IFeature> selectedFeatures = configuration.getSelectedFeatures();
 	    Iterator<IFeature> featureIterator = prunedFeatureModel.getFeatures().iterator();
